@@ -3,11 +3,11 @@ import { Button } from './Button'
 
 describe('Button', () => {
   it('should renders correctly', async () => {
-    render(<Button />)
+    render(<Button>Example</Button>)
 
     expect(
       await screen.findByRole('button', {
-        name: /hello/i,
+        name: /Example/i,
       }),
     ).toBeInTheDocument()
   })
