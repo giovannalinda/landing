@@ -7,7 +7,10 @@
     "build": "next build",
     "commit": "git-cz",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier:check": "prettier -c",
+    "lint:fix": "yarn lint --fix",
+    "type-check": "tsc --project tsconfig.json --pretty --noEmit"
   },
   "husky": {
     "hooks": {
@@ -22,10 +25,31 @@
   "devDependencies": {
     "@commitlint/cli": "17.0.2",
     "@commitlint/config-conventional": "17.0.2",
+    "@types/node": "17.0.41",
+    "@types/react": "18.0.12",
+    "@types/react-dom": "18.0.5",
+    "@types/styled-components": "5.1.25",
+    "@typescript-eslint/eslint-plugin": "5.27.1",
+    "@typescript-eslint/parser": "5.27.1",
     "commitizen": "4.2.4",
     "eslint": "8.17.0",
     "eslint-config-next": "12.1.6",
-    "husky": "8.0.1"
+    "eslint-config-prettier": "8.5.0",
+    "eslint-config-standard": "17.0.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-promise": "6.0.0",
+    "eslint-plugin-react": "7.30.0",
+    "eslint-plugin-react-hooks": "4.5.0",
+    "husky": "8.0.1",
+    "prettier": "2.6.2",
+    "typescript": "4.7.3"
+  },
+  "eslintConfig": {
+    "eslintConfig": {
+      "extends": "./.eslintrc.json"
+    }
   },
   "config": {
     "commitizen": {
