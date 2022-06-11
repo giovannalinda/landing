@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Apresentation should match snapshot 1`] = `
+<div
+  class="sc-gsnTZi fIgdsz"
+>
+  <span
+    style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+  >
+    <span
+      style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+    >
+      <img
+        alt=""
+        aria-hidden="true"
+        src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27592%27%20height=%27574%27/%3e"
+        style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+      />
+    </span>
+    <img
+      data-nimg="intrinsic"
+      decoding="async"
+      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+    />
+    <noscript />
+  </span>
+  <div
+    class="sc-dkzDqf dxFOK"
+  >
+    <h1>
+      Software Engineer and Infrastructure specialist based in Brazil.
+    </h1>
+    <p>
+      Morbi quam velit, euismod in imperdiet vitae, elementum et elit. Nunc finibus, felis sit amet sollicitudin sollicitudin, nisi magna feugiat enim, in maximus urna enim ac tortor. Nunc in volutpat ipsum, molestie commodo odio. Quisque auctor nisi mi. Aenean venenatis sapien et interdum interdum.
+    </p>
+    <div
+      class="sc-hKMtZM ikbJJX"
+    >
+      <div
+        class="sc-eCYdqJ hGxLib"
+      >
+        <h3>
+          17+
+        </h3>
+        <span>
+          Years of Experience
+        </span>
+      </div>
+      <div
+        class="sc-eCYdqJ hGxLib"
+      >
+        <h3>
+          325+
+        </h3>
+        <span>
+          Completed Projects
+        </span>
+      </div>
+    </div>
+    <button
+      class="sc-bczRLJ sc-jSMfEi bRsxPm iNHIvC"
+    >
+      SAY HI 
+      <svg
+        fill="none"
+        height="24"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z"
+          fill="currentColor"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
