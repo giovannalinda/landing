@@ -11,4 +11,10 @@ describe('Button', () => {
       }),
     ).toBeInTheDocument()
   })
+
+  it('should match snapshot', () => {
+    const { container } = render(<Button>Example</Button>)
+
+    expect(container.firstChild).toMatchSnapshot()
+  })
 })
