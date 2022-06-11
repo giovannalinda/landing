@@ -1,22 +1,23 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
+import { Apresentation, Layout } from '~/components'
+
 const Home: NextPage = () => {
   return (
-    <div>
+    <>
       <Head>
         <title>Homepage</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main>
-        <h1>Hello World</h1>
+      <Layout.Header />
+      <Layout.Content>
+        <Apresentation />
 
-        <p>
-          Get started by editing <code>pages/index.tsx</code>
-        </p>
-      </main>
-    </div>
+        <Layout.Background />
+      </Layout.Content>
+    </>
   )
 }
 
