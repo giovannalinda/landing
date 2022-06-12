@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServiceCard should match snapshot 1`] = `
+<button
+  aria-label="Front End Development"
+  class="sc-bczRLJ eVRScG"
+>
+  <svg
+    fill="none"
+    height="40"
+    stroke="currentColor"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="1"
+    viewBox="0 0 24 24"
+    width="40"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <polyline
+      points="16 18 22 12 16 6"
+    />
+    <polyline
+      points="8 6 2 12 8 18"
+    />
+  </svg>
+  <div
+    class="sc-gsnTZi ehfiIH"
+  >
+    Front End Development
+    <hr
+      class="sc-dkzDqf dlPWbN"
+    />
+    <div
+      class="discussNow"
+    >
+      <span>
+        Discuss now
+      </span>
+      <svg
+        fill="none"
+        height="24"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+  </div>
+</button>
+`;
