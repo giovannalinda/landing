@@ -9,7 +9,7 @@ export const Container = styled.section`
   width: 100%;
   margin: 12rem auto 0;
   height: calc(100vh - 20rem);
-  padding-bottom: ${theme.space[7]};
+  padding-bottom: ${theme.space[8]};
 `
 
 export const TextGroup = styled.div`
@@ -41,7 +41,7 @@ export const TextGroup = styled.div`
     font-size: ${theme.font.sizes.paragraph};
     max-width: 55rem;
     color: ${theme.colors.gray500};
-    margin: ${theme.space[5]} 0;
+    margin: ${theme.space[6]} 0;
     line-height: ${theme.font.lineHeights.paragraph};
   }
 `

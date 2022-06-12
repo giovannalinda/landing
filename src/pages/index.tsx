@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
-import { About, Apresentation, Layout } from '~/components'
+import { About, Apresentation, Layout, MyService } from '~/components'
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +15,7 @@ const Home: NextPage = () => {
       <Layout.Content>
         <Apresentation />
         <About />
+        <MyService />
         <Layout.Background />
       </Layout.Content>
     </>

@@ -18,7 +18,7 @@ export const Navigation = styled.nav`
     z-index: 1;
 
     & + li {
-      margin-left: ${theme.space[6]};
+      margin-left: ${theme.space[7]};
     }
   }
 `

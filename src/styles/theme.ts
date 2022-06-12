@@ -19,7 +19,7 @@ export const theme = {
       small: '1.4rem',
       paragraph: '1.6rem',
       large: '1.8rem',
-      subtitle: '2rem',
+      subtitle: '4rem',
       title: '4.8rem',
     },
     lineHeights: {
@@ -41,12 +41,14 @@ export const theme = {
     2: '1.2rem',
     3: '1.4rem',
     4: '1.6rem',
-    5: '3.2rem',
-    6: '4rem',
-    7: '4.8rem',
+    5: '2.4rem',
+    6: '3.2rem',
+    7: '4rem',
+    8: '4.8rem',
   },
   borderRadius: {
     rounded: '50%',
     button: '0.5rem',
+    card: '0.6rem',
   },
 }

@@ -8,7 +8,7 @@ const sizes = {
     height: 4.8rem;
   `,
   md: css`
-    padding: ${theme.space[4]} ${theme.space[5]};
+    padding: ${theme.space[4]} ${theme.space[6]};
   `,
 }
 

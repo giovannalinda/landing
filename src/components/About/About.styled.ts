@@ -3,7 +3,7 @@ import { theme } from '~/styles'
 
 import { Container as Button } from '../Button/Button.styled'
 
-export const Container = styled.div`
+export const Container = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,7 +60,7 @@ export const CarrerItem = styled.div`
 export const SayHelloButton = styled(Button)`
   display: flex;
   align-items: center;
-  margin-top: ${theme.space[5]};
+  margin-top: ${theme.space[6]};
   margin-right: auto;
 
   svg {
