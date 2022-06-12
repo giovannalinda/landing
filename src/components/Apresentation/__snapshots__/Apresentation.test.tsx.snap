@@ -2,10 +2,10 @@
 
 exports[`Apresentation should match snapshot 1`] = `
 <section
-  class="sc-gsnTZi ilpNUq"
+  class="sc-dkzDqf bQTnlx"
 >
   <div
-    class="sc-dkzDqf ACDTy"
+    class="sc-hKMtZM khMYUV"
   >
     <h1>
       Hello, I’m John, a 
@@ -17,7 +17,7 @@ exports[`Apresentation should match snapshot 1`] = `
       Product Designer, UI/UX Designer, and developer based in Brazil. Over the past 17 years, as an art director and designer, I’ve worked with big companies and up-and-coming startups.
     </p>
     <div
-      class="sc-hKMtZM hjRTDu"
+      class="sc-eCYdqJ gZZGbX"
     >
       <button
         class="sc-bczRLJ bRsxPm"
@@ -32,7 +32,7 @@ exports[`Apresentation should match snapshot 1`] = `
     </div>
   </div>
   <div
-    class="sc-eCYdqJ gtiwKA"
+    class="sc-jSMfEi jSHbGK"
   >
     <p>
       Follow me on

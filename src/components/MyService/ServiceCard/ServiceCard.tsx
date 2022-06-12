@@ -1,5 +1,6 @@
 import { ReactNode } from 'react'
-import { CgArrowLongRight } from 'react-icons/cg'
+
+import { Button, useButtonAnimation } from '~/components'
 
 import * as S from './ServiceCard.styled'
 
@@ -9,17 +10,25 @@ export type ServiceCardProps = {
 }
 
 export function ServiceCard({ children, title }: ServiceCardProps) {
+  const { isButtonTextVisible, showButtonText, hiddenButtonText } =
+    useButtonAnimation()
+
   return (
-    <S.Container aria-label={title}>
+    <S.Container
+      aria-label={title}
+      onMouseEnter={showButtonText}
+      onMouseLeave={hiddenButtonText}
+      onFocus={showButtonText}
+      onBlur={hiddenButtonText}
+    >
       {children}
 
       <S.TextGroup>
         {title}
         <S.Separator />
-        <div className='discussNow'>
-          <span>Discuss now</span>
-          <CgArrowLongRight size={24} />
-        </div>
+        <Button.Animation visible={isButtonTextVisible}>
+          Discuss now
+        </Button.Animation>
       </S.TextGroup>
     </S.Container>
   )

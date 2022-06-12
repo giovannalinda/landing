@@ -3,7 +3,7 @@
 exports[`ServiceCard should match snapshot 1`] = `
 <button
   aria-label="Front End Development"
-  class="sc-bczRLJ eVRScG"
+  class="sc-kgflAQ hTPTBc"
 >
   <svg
     fill="none"
@@ -24,14 +24,14 @@ exports[`ServiceCard should match snapshot 1`] = `
     />
   </svg>
   <div
-    class="sc-gsnTZi ehfiIH"
+    class="sc-fLlhyt sFNTJ"
   >
     Front End Development
     <hr
-      class="sc-dkzDqf dlPWbN"
+      class="sc-bBrHrO hkKOFU"
     />
     <div
-      class="discussNow"
+      class="sc-gsnTZi bljDYF"
     >
       <span>
         Discuss now

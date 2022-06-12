@@ -15,29 +15,6 @@ export const Container = styled.button`
   padding: ${theme.space[6]};
   transition: all 0.5s;
 
-  .discussNow {
-    display: flex;
-    align-items: center;
-
-    svg {
-      position: absolute;
-      left: ${theme.space[6]};
-      transition: all 0.2s;
-    }
-
-    span {
-      opacity: 0;
-      white-space: nowrap;
-      visibility: hidden;
-      transition: all 0.5s;
-      text-transform: uppercase;
-      margin-right: ${theme.space[1]};
-      color: ${theme.colors.secondaryPink};
-      font-size: ${theme.font.sizes.paragraph};
-      font-weight: ${theme.font.weigths.semiBold};
-    }
-  }
-
   svg {
     transition: all 0.5s;
   }
@@ -50,17 +27,6 @@ export const Container = styled.button`
   &:hover,
   &:focus {
     background: ${theme.colors.white};
-
-    .discussNow {
-      svg {
-        left: 16.2rem;
-      }
-
-      span {
-        opacity: 1;
-        visibility: visible;
-      }
-    }
 
     svg {
       color: ${theme.colors.secondaryPink};
