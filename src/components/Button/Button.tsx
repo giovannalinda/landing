@@ -1,4 +1,5 @@
 import { ReactNode } from 'react'
+import { CgArrowLongRight } from 'react-icons/cg'
 
 import * as S from './Button.styled'
 
@@ -7,6 +8,11 @@ export type ButtonProps = {
   size?: 'sm' | 'md'
   rounded?: boolean
   variant?: 'purple' | 'white'
+}
+
+export type ButtonAnimationProps = {
+  children: ReactNode
+  visible?: boolean
 }
 
 export function Button({
@@ -21,3 +27,17 @@ export function Button({
     </S.Container>
   )
 }
+
+Button.Animation = function ButtonAnimation({
+  children,
+  visible = false,
+}: ButtonAnimationProps) {
+  return (
+    <S.ButtonAnimationWrapper visible={visible}>
+      <span>{children}</span>
+      <CgArrowLongRight size={24} />
+    </S.ButtonAnimationWrapper>
+  )
+}
+
+export * from './useButtonAnimation'
