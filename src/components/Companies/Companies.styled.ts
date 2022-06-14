@@ -2,15 +2,14 @@ import styled from 'styled-components'
 import { theme } from '~/styles'
 
 export const Container = styled.section`
-  max-width: ${theme.grid.lg};
-  width: 100%;
-  margin: 18rem auto 0;
   display: flex;
   justify-content: space-between;
+  padding-top: 18rem;
 
-  p {
+  h1 {
     font-size: 3.2rem;
     max-width: 31.2rem;
+    font-weight: ${theme.font.weigths.regular};
 
     span {
       color: ${theme.colors.secondaryPink};
@@ -35,24 +34,24 @@ export const CompaniesList = styled.ul`
   grid-gap: ${theme.space[5]};
   width: 100%;
   margin-left: 7.2rem;
+`
 
-  li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 12rem;
-    background: ${theme.colors.white};
-    border-radius: ${theme.borderRadius.card};
-    transition: 0.2s;
-    cursor: pointer;
+export const CompanyCard = styled.a`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 12rem;
+  background: ${theme.colors.white};
+  border-radius: ${theme.borderRadius.card};
+  transition: ${theme.transitions.fast};
+  cursor: pointer;
 
-    svg {
-      color: ${theme.colors.secondaryPurple};
-    }
+  svg {
+    color: ${theme.colors.secondaryPurple};
+  }
 
-    &:hover {
-      transform: translateY(-0.5rem);
-    }
+  &:hover {
+    transform: translateY(-0.5rem);
   }
 `
