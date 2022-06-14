@@ -5,9 +5,6 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: ${theme.grid.lg};
-  width: 100%;
-  margin: 12rem auto 0;
   height: calc(100vh - 20rem);
   padding-bottom: ${theme.space[8]};
 `
