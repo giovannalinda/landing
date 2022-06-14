@@ -4,28 +4,28 @@ import { theme } from '~/styles'
 import { Container as Button } from '../Button/Button.styled'
 
 export const Container = styled.section`
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5.6rem;
   align-items: center;
-  margin-top: 13.2rem;
+  padding-top: 13.2rem;
 `
 
 export const Content = styled.div`
   display: flex;
   text-align: left;
   flex-direction: column;
-  padding-left: 5.6rem;
 
   h1 {
-    font-size: ${theme.font.sizes.title};
-    font-weight: ${theme.font.weigths.medium};
-    line-height: 5.6rem;
     max-width: 67.2rem;
+    font-size: ${theme.font.sizes.extraTitle};
+    font-weight: ${theme.font.weigths.medium};
+    line-height: ${theme.font.lineHeights.extraTitle};
   }
 
   p {
     font-size: ${theme.font.sizes.large};
-    line-height: 2.8rem;
+    line-height: ${theme.font.lineHeights.large};
     color: ${theme.colors.gray500};
     max-width: 67.2rem;
     padding-top: 2rem;
@@ -45,10 +45,10 @@ export const Carrer = styled.div`
   }
 
   span {
+    max-width: 9.5rem;
     margin-left: ${theme.space[4]};
     font-size: ${theme.font.sizes.large};
-    max-width: 9.5rem;
-    line-height: 2.8rem;
+    line-height: ${theme.font.lineHeights.large};
   }
 `
 
