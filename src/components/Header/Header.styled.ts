@@ -21,7 +21,7 @@ export const Navigation = styled.nav`
   li {
     font-weight: ${theme.font.weigths.bold};
     letter-spacing: ${theme.font.letterSpacing.md};
-    font-size: 1.4rem;
+    font-size: ${theme.font.sizes.small};
     z-index: 1;
 
     a {
