@@ -1,12 +1,13 @@
-import Image from 'next/image'
-import { Assets } from '~/assets'
 import { CgArrowLongRight } from 'react-icons/cg'
+import Image from 'next/image'
+
+import { Assets } from '~/assets'
 
 import * as S from './About.styled'
 
 export function About() {
   return (
-    <S.Container>
+    <S.Container id='#about'>
       <Image src={Assets.About} width='592' height='574' />
       <S.Content>
         <h1>
@@ -25,7 +26,6 @@ export function About() {
             <h3>17+</h3>
             <span>Years of Experience</span>
           </S.CarrerItem>
-
           <S.CarrerItem>
             <h3>325+</h3>
             <span>Completed Projects</span>
