@@ -11,7 +11,7 @@ export function ContactForm() {
       </S.FormGroup>
       <S.Input type='text' placeholder='Subjects' />
       <S.TextArea placeholder='Message' rows={7} />
-      <S.SendMessage variant='purple' size='md' rounded={false} type='submit'>
+      <S.SendMessage variant='purple' size='md' type='submit'>
         SEND MESSAGE <FiSend size={20} />
       </S.SendMessage>
     </S.Form>

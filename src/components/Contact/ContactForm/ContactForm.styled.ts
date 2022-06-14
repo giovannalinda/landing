@@ -10,10 +10,10 @@ export const globalInputCss = css`
   border-radius: 0.4rem;
   padding: 1.4rem 2rem 1.4rem 2rem;
   transition: 0.3s;
+  outline: 0;
 
   &:focus {
-    outline-offset: 0.2rem;
-    outline: 0.2rem solid ${theme.colors.gray100};
+    border-color: ${theme.colors.secondaryPurple};
   }
 
   &::placeholder {
@@ -39,7 +39,8 @@ export const Input = styled.input`
 export const TextArea = styled.textarea`
   resize: none;
   font-family: ${theme.font.family};
-  ${globalInputCss}
+
+  ${globalInputCss};
 `
 
 export const SendMessage = styled(Button)`
