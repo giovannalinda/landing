@@ -4,10 +4,11 @@ import Image from 'next/image'
 import { Assets } from '~/assets'
 
 import * as S from './About.styled'
+import Link from 'next/link'
 
 export function About() {
   return (
-    <S.Container id='#about'>
+    <S.Container id='about'>
       <Image src={Assets.About} width='592' height='574' />
       <S.Content>
         <h1>
@@ -31,9 +32,11 @@ export function About() {
             <span>Completed Projects</span>
           </S.CarrerItem>
         </S.Carrer>
-        <S.SayHelloButton variant='purple' size='md' rounded={false}>
-          SAY HI <CgArrowLongRight size={24} />
-        </S.SayHelloButton>
+        <Link href='mailto:eugiovannasouza@gmail.com'>
+          <S.SayHelloButton variant='purple' size='md' rounded={false}>
+            SAY HI <CgArrowLongRight size={24} />
+          </S.SayHelloButton>
+        </Link>
       </S.Content>
     </S.Container>
   )
