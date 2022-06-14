@@ -35,7 +35,7 @@ export const Content = styled.div`
 
 export const Carrer = styled.div`
   display: flex;
-  gap: ${theme.space[4]};
+  gap: ${theme.space[8]};
 
   h3 {
     color: ${theme.colors.secondaryPink};
