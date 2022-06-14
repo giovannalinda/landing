@@ -6,13 +6,15 @@ import {
   ImYoutube,
 } from 'react-icons/im'
 import { AiOutlineInstagram } from 'react-icons/ai'
+import Link from 'next/link'
 
-import { Button } from '../../Button'
+import { Button } from '~/components'
 
-import * as S from './Info.styled'
-import { ContactList } from '../ContactList'
+import { ContactList } from './ContactList'
 
-export function Info() {
+import * as S from './ContactInfo.styled'
+
+export function ContactInfo() {
   return (
     <>
       <h1>Get In Touch</h1>
@@ -20,12 +22,16 @@ export function Info() {
       <ContactList />
 
       <S.ButtonGroup>
-        <Button variant='outlined' size='md' rounded>
-          <ImDribbble size={20} />
-        </Button>
-        <Button variant='outlined' size='md' rounded>
-          <ImBehance size={20} />
-        </Button>
+        <Link href='https://dribbble.com/giovannalinda'>
+          <Button variant='outlined' size='md' rounded>
+            <ImDribbble size={20} />
+          </Button>
+        </Link>
+        <Link href='https://dribbble.com/giovannalinda'>
+          <Button variant='outlined' size='md' rounded>
+            <ImBehance size={20} />
+          </Button>
+        </Link>
         <Button variant='outlined' size='md' rounded>
           <ImFacebook size={20} />
         </Button>

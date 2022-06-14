@@ -13,14 +13,14 @@ export const ContactList = styled.ul`
   }
 
   small {
-    font-size: ${theme.font.sizes.large};
     margin-left: 2rem;
-    line-height: 2.8rem;
+    font-size: ${theme.font.sizes.large};
+    line-height: ${theme.font.lineHeights.large};
   }
 `
 
 export const Icon = styled.div`
-  background: #f0edff;
+  background: ${theme.colors.purple50};
   border-radius: ${theme.borderRadius.rounded};
   width: 8rem;
   height: 8rem;

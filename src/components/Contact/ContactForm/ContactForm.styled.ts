@@ -4,12 +4,12 @@ import { theme } from '~/styles'
 import { Container as Button } from '../../Button/Button.styled'
 
 export const globalInputCss = css`
-  border: 1px solid ${theme.colors.gray100};
+  border: 0.1rem solid ${theme.colors.gray100};
   width: 100%;
   min-height: 5.2rem;
-  border-radius: 0.4rem;
-  padding: 1.4rem 2rem 1.4rem 2rem;
-  transition: 0.3s;
+  border-radius: ${theme.borderRadius.sm};
+  padding: ${theme.space[3]} 2rem;
+  transition: all ${theme.transitions.fast};
   outline: 0;
 
   &:focus {

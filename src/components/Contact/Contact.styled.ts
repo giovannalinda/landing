@@ -2,37 +2,35 @@ import styled from 'styled-components'
 import { theme } from '~/styles'
 
 export const Container = styled.section`
-  max-width: ${theme.grid.lg};
-  width: 100%;
-  margin: 0 auto;
-  padding-top: 22.7rem;
   display: grid;
   grid-template-columns: 1.3fr 1fr;
+  padding-top: 12.7rem;
 
   h1 {
-    padding-bottom: ${theme.space[5]};
     font-size: 3.2rem;
+    padding-bottom: ${theme.space[5]};
     font-weight: ${theme.font.weigths.regular};
   }
 `
 
-export const ContactForm = styled.div`
+export const FormContainer = styled.div`
   background: ${theme.colors.white};
   color: ${theme.colors.primaryDark};
   padding: ${theme.space[8]};
-  border-radius: 0.8rem;
+  border-radius: ${theme.borderRadius.lg};
 `
 
-export const ContactInfo = styled.div`
+export const InfoContainer = styled.div`
+  position: relative;
   background: ${theme.colors.white};
   color: ${theme.colors.primaryDark};
-  padding: 4.8rem;
-  border-radius: 0.8rem;
+  padding: ${theme.space[8]};
+  border-radius: ${theme.borderRadius.lg};
   margin-left: ${theme.space[5]};
 `
 
-export const ContainerImage = styled.div`
+export const DotImageWrapper = styled.div`
   position: absolute;
-  margin-top: -8rem;
-  margin-left: 40rem;
+  right: -8rem;
+  top: -3rem;
 `
