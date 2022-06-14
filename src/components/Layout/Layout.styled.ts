@@ -1,10 +1,14 @@
 import styled from 'styled-components'
 import { Assets } from '~/assets'
+import { theme } from '~/styles'
 
 export const Content = styled.main`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  max-width: ${theme.grid.lg};
+  width: 100%;
+  margin: 0 auto;
 `
 
 export const Background = styled.div`
