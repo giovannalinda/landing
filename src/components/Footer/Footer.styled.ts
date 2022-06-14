@@ -3,14 +3,12 @@ import { theme } from '~/styles'
 
 export const Footer = styled.footer`
   width: 100%;
-  margin: 16rem auto 17.8rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  display: grid;
+  place-items: center;
+  padding-bottom: 17.8rem;
 
   small {
-    margin-top: 1.8rem;
+    margin-top: ${theme.space[4]};
     font-size: ${theme.font.sizes.small};
     color: ${theme.colors.gray500};
 
@@ -21,7 +19,7 @@ export const Footer = styled.footer`
 `
 
 export const Separator = styled.hr`
-  border: 0.1px solid ${theme.colors.gray100};
+  border: 0.1rem solid ${theme.colors.gray100};
   width: 100%;
   opacity: 0.1;
   margin-top: 10.8rem;
