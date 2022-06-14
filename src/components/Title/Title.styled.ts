@@ -10,7 +10,7 @@ export const Title = styled.h1`
 
 export const Separator = styled.hr`
   border-color: ${theme.colors.secondaryPink};
-  border-radius: 5rem;
+  border-radius: ${theme.borderRadius.md};
   width: 6.4rem;
   margin: ${theme.space[4]} auto 0;
 `
