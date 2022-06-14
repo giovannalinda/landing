@@ -6,12 +6,12 @@ export const Container = styled.button`
   align-items: center;
   background: ${theme.colors.white};
   padding: ${theme.space[5]};
-  border-radius: ${theme.borderRadius.listItem};
-  transition: 0.4s;
+  border-radius: ${theme.borderRadius.md};
+  transition: all 0.4s;
   width: 100%;
 
-  :hover {
-    background: #dfe3eb;
+  &:hover {
+    background: ${theme.colors.gray100};
   }
 `
 
@@ -31,7 +31,7 @@ export const TestimonialClient = styled.div`
   h3 {
     font-size: ${theme.font.sizes.large};
     font-weight: ${theme.font.weigths.regular};
-    margin-bottom: 0.3rem;
+    margin-bottom: ${theme.space[0]};
   }
 
   small {
