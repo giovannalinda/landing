@@ -7,7 +7,7 @@ export const Container = styled.button`
   background: ${theme.colors.white};
   padding: ${theme.space[5]};
   border-radius: ${theme.borderRadius.md};
-  transition: all 0.4s;
+  transition: all ${theme.transitions.slow};
   width: 100%;
 
   &:hover {

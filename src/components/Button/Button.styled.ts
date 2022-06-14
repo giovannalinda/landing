@@ -64,7 +64,7 @@ export const Container = styled.button<ButtonProps>`
   border-radius: ${theme.borderRadius.button};
   font-weight: ${theme.font.weigths.semiBold};
   letter-spacing: ${theme.font.letterSpacing.sm};
-  transition: 0.2s;
+  transition: all ${theme.transitions.fast};
 
   &:hover {
     transform: translateY(-0.5rem);
@@ -91,14 +91,14 @@ export const ButtonAnimationWrapper = styled.div<ButtonAnimationWrapperProps>`
   svg {
     position: absolute;
     left: 0;
-    transition: all 0.2s;
+    transition: all ${theme.transitions.fast};
   }
 
   span {
     opacity: 0;
     white-space: nowrap;
     visibility: hidden;
-    transition: all 0.5s;
+    transition: all ${theme.transitions.slow};
     text-transform: uppercase;
     margin-right: ${theme.space[1]};
     color: ${theme.colors.secondaryPink};

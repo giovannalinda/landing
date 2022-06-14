@@ -7,4 +7,12 @@ export enum Assets {
   ImgWork4 = '/imgwork4.png',
   ImgWork5 = '/imgwork5.png',
   ImgWork6 = '/imgwork6.png',
+  Dot = '/dot.svg',
+  LogoYoutube = '/youtubelogo.svg',
+  LogoSketch = '/sketchlogo.svg',
+  LogoGoogle = '/googlelogo.svg',
+  LogoAdobe = '/adobelogo.svg',
+  Logo = '/logo.svg',
+  Quote = '/quote.svg',
+  Shapes = '/shapes.svg',
 }

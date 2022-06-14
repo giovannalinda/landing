@@ -21,9 +21,9 @@ export const TextGroup = styled.div`
 
   p {
     text-align: center;
-    font-size: 3.2rem;
+    font-size: ${theme.font.sizes.subtitle};
     font-weight: ${theme.font.weigths.regular};
-    line-height: 4.8rem;
+    line-height: ${theme.font.lineHeights.subtitle};
 
     span {
       color: ${theme.colors.secondaryPink};

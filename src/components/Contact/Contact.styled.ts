@@ -7,8 +7,8 @@ export const Container = styled.section`
   padding-top: 12.7rem;
 
   h1 {
-    font-size: 3.2rem;
     padding-bottom: ${theme.space[5]};
+    font-size: ${theme.font.sizes.subtitle};
     font-weight: ${theme.font.weigths.regular};
   }
 `

@@ -13,10 +13,10 @@ export const Container = styled.button`
   align-items: flex-start;
   justify-content: space-between;
   padding: ${theme.space[6]};
-  transition: all 0.5s;
+  transition: all ${theme.transitions.slow};
 
   svg {
-    transition: all 0.5s;
+    transition: all ${theme.transitions.slow};
   }
 
   &:focus {
@@ -37,7 +37,7 @@ export const Container = styled.button`
 export const TextGroup = styled.div`
   display: flex;
   flex-direction: column;
-  font-size: 3.2rem;
+  font-size: ${theme.font.sizes.subtitle};
   text-align: left;
   line-height: 4rem;
   max-width: 15rem;

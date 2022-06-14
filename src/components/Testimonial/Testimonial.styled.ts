@@ -45,7 +45,7 @@ export const QuoteContainer = styled.div`
 
   p {
     padding-top: 2.6rem;
-    font-size: 3.2rem;
+    font-size: ${theme.font.sizes.subtitle};
     line-height: 5.1rem;
     color: ${theme.colors.primaryDark};
   }
@@ -65,6 +65,6 @@ export const Indicator = styled.div<IndicatorProps>`
   left: -1.6rem;
   top: ${({ top }) => `${top}px`};
   transform: rotate(-45deg);
-  transition: all 0.5s;
-  border-radius: 0.4rem 0 0 0;
+  transition: all ${theme.transitions.slow};
+  border-radius: ${theme.borderRadius.sm} 0 0 0;
 `

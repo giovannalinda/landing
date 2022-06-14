@@ -7,6 +7,7 @@ export const Container = styled.section`
   justify-content: space-between;
   height: calc(100vh - 20rem);
   padding-bottom: ${theme.space[8]};
+  margin-top: 13rem;
 `
 
 export const TextGroup = styled.div`

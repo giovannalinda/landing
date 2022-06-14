@@ -4,7 +4,7 @@ import { theme } from '~/styles'
 
 export const Title = styled.h1`
   font-weight: ${theme.font.weigths.regular};
-  font-size: ${theme.font.sizes.subtitle};
+  font-size: ${theme.font.sizes.title};
   text-align: center;
 `
 

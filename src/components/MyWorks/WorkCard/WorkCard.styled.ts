@@ -3,12 +3,10 @@ import { theme } from '~/styles'
 
 export const Container = styled.button`
   cursor: pointer;
-  transition: 0.5s;
   background: ${theme.colors.white};
   color: ${theme.colors.primaryDark};
   border-radius: ${theme.borderRadius.card};
   text-align: left;
-  transition: all 0.5s;
 
   &:focus {
     outline: 0.2rem solid ${theme.colors.white};
