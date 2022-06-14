@@ -25,7 +25,25 @@ export const Navigation = styled.nav`
     z-index: 1;
 
     a {
+      position: relative;
       color: ${theme.colors.white};
+
+      &::after {
+        content: '';
+        position: absolute;
+        background: ${theme.colors.white};
+        width: 0;
+        height: 0.1rem;
+        bottom: -${theme.space[0]};
+        left: 0;
+        transition: all ${theme.transitions.fast};
+      }
+
+      &:hover {
+        &::after {
+          width: 100%;
+        }
+      }
     }
 
     & + li {
