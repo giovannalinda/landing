@@ -1,4 +1,4 @@
-import { ReactNode } from 'react'
+import { ButtonHTMLAttributes, ReactNode } from 'react'
 import { CgArrowLongRight } from 'react-icons/cg'
 
 import * as S from './Button.styled'
@@ -7,8 +7,8 @@ export type ButtonProps = {
   children: ReactNode
   size?: 'sm' | 'md'
   rounded?: boolean
-  variant?: 'purple' | 'white'
-}
+  variant?: 'purple' | 'white' | 'outlined'
+} & ButtonHTMLAttributes<HTMLButtonElement>
 
 export type ButtonAnimationProps = {
   children: ReactNode

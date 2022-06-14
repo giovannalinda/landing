@@ -6,15 +6,27 @@ type ButtonAnimationWrapperProps = {
   visible: boolean
 }
 
-const sizes = {
+const sizes = (rounded: boolean) => ({
   sm: css`
     padding: ${theme.space[3]};
     height: 4.8rem;
+
+    ${rounded &&
+    css`
+      height: 4rem;
+      width: 4rem;
+    `}
   `,
   md: css`
     padding: ${theme.space[4]} ${theme.space[6]};
+
+    ${rounded &&
+    css`
+      height: 6rem;
+      width: 6rem;
+    `}
   `,
-}
+})
 
 const variants = {
   purple: css`
@@ -35,9 +47,20 @@ const variants = {
       outline: 0.2rem solid ${theme.colors.white};
     }
   `,
+  outlined: css`
+    background: transparent;
+    border: 0.1rem solid ${theme.colors.gray100};
+    color: ${theme.colors.primaryDark};
+
+    &:hover,
+    &:focus {
+      color: ${theme.colors.white};
+      background: ${theme.colors.secondaryPurple};
+    }
+  `,
 }
 
-export const Container = styled.button<Required<ButtonProps>>`
+export const Container = styled.button<ButtonProps>`
   border-radius: ${theme.borderRadius.button};
   font-weight: ${theme.font.weigths.semiBold};
   letter-spacing: ${theme.font.letterSpacing.sm};
@@ -48,11 +71,14 @@ export const Container = styled.button<Required<ButtonProps>>`
     opacity: 0.8;
   }
 
-  ${({ variant }) => variants[variant]};
-  ${({ size }) => sizes[size]};
+  ${({ variant }) => variant && variants[variant]};
+  ${({ size, rounded = false }) => size && sizes(rounded)[size]};
   ${({ rounded }) =>
     rounded &&
     css`
+      padding: 0;
+      display: grid;
+      place-items: center;
       border-radius: ${theme.borderRadius.rounded};
     `}
 `
