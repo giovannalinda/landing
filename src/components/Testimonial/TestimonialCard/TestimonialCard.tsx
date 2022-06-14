@@ -17,7 +17,7 @@ export function TestimonialCard({
 
       <S.TestimonialClient>
         <h3>{name}</h3>
-        <small>
+        <small aria-label={`${office} of ${company}`}>
           {office} of <span>{company}</span>
         </small>
       </S.TestimonialClient>

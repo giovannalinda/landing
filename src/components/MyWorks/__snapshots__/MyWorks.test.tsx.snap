@@ -2,24 +2,24 @@
 
 exports[`MyWorks should match snapshot 1`] = `
 <section
-  class="sc-gKXOVf csOByT"
+  class="sc-hTtwUo gTUKPF"
   id="works"
 >
   <h1
-    class="sc-bczRLJ jSHJYa"
+    class="sc-hAZoDl cKtAR"
   >
     My Selected Work
   </h1>
   <hr
-    class="sc-gsnTZi fRSHIc"
+    class="sc-fnykZs hxMeGu"
   />
   <ul
-    class="sc-iBkjds gZDsz"
+    class="sc-jgbSNz kdZbGu"
   >
     <li>
       <button
         aria-label="Eduguard - E-learning Website"
-        class="sc-eCYdqJ eQEwjK"
+        class="sc-BeQoi ipgzPe"
       >
         <span
           style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
@@ -43,13 +43,13 @@ exports[`MyWorks should match snapshot 1`] = `
           <noscript />
         </span>
         <div
-          class="sc-jSMfEi jUCNiu"
+          class="sc-kgUAyh RRsqt"
         >
           <h3>
             Eduguard - E-learning Website
           </h3>
           <div
-            class="sc-hKMtZM fyfKhx"
+            class="sc-gsnTZi freJdh"
           >
             <span>
               VIEW PROJECT
@@ -75,7 +75,7 @@ exports[`MyWorks should match snapshot 1`] = `
     <li>
       <button
         aria-label="Eduguard - E-learning Website"
-        class="sc-eCYdqJ eQEwjK"
+        class="sc-BeQoi ipgzPe"
       >
         <span
           style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
@@ -99,13 +99,13 @@ exports[`MyWorks should match snapshot 1`] = `
           <noscript />
         </span>
         <div
-          class="sc-jSMfEi jUCNiu"
+          class="sc-kgUAyh RRsqt"
         >
           <h3>
             Eduguard - E-learning Website
           </h3>
           <div
-            class="sc-hKMtZM fyfKhx"
+            class="sc-gsnTZi freJdh"
           >
             <span>
               VIEW PROJECT
@@ -131,7 +131,7 @@ exports[`MyWorks should match snapshot 1`] = `
     <li>
       <button
         aria-label="Huma Marketing Agency"
-        class="sc-eCYdqJ eQEwjK"
+        class="sc-BeQoi ipgzPe"
       >
         <span
           style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
@@ -155,13 +155,13 @@ exports[`MyWorks should match snapshot 1`] = `
           <noscript />
         </span>
         <div
-          class="sc-jSMfEi jUCNiu"
+          class="sc-kgUAyh RRsqt"
         >
           <h3>
             Huma Marketing Agency
           </h3>
           <div
-            class="sc-hKMtZM fyfKhx"
+            class="sc-gsnTZi freJdh"
           >
             <span>
               VIEW PROJECT
@@ -187,7 +187,7 @@ exports[`MyWorks should match snapshot 1`] = `
     <li>
       <button
         aria-label="Beeryblog Blog Website"
-        class="sc-eCYdqJ eQEwjK"
+        class="sc-BeQoi ipgzPe"
       >
         <span
           style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
@@ -211,13 +211,13 @@ exports[`MyWorks should match snapshot 1`] = `
           <noscript />
         </span>
         <div
-          class="sc-jSMfEi jUCNiu"
+          class="sc-kgUAyh RRsqt"
         >
           <h3>
             Beeryblog Blog Website
           </h3>
           <div
-            class="sc-hKMtZM fyfKhx"
+            class="sc-gsnTZi freJdh"
           >
             <span>
               VIEW PROJECT
@@ -243,7 +243,7 @@ exports[`MyWorks should match snapshot 1`] = `
     <li>
       <button
         aria-label="Educare Elearning website"
-        class="sc-eCYdqJ eQEwjK"
+        class="sc-BeQoi ipgzPe"
       >
         <span
           style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
@@ -267,13 +267,13 @@ exports[`MyWorks should match snapshot 1`] = `
           <noscript />
         </span>
         <div
-          class="sc-jSMfEi jUCNiu"
+          class="sc-kgUAyh RRsqt"
         >
           <h3>
             Educare Elearning website
           </h3>
           <div
-            class="sc-hKMtZM fyfKhx"
+            class="sc-gsnTZi freJdh"
           >
             <span>
               VIEW PROJECT
@@ -299,7 +299,7 @@ exports[`MyWorks should match snapshot 1`] = `
     <li>
       <button
         aria-label="Blogy Blog Website"
-        class="sc-eCYdqJ eQEwjK"
+        class="sc-BeQoi ipgzPe"
       >
         <span
           style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
@@ -323,13 +323,13 @@ exports[`MyWorks should match snapshot 1`] = `
           <noscript />
         </span>
         <div
-          class="sc-jSMfEi jUCNiu"
+          class="sc-kgUAyh RRsqt"
         >
           <h3>
             Blogy Blog Website
           </h3>
           <div
-            class="sc-hKMtZM fyfKhx"
+            class="sc-gsnTZi freJdh"
           >
             <span>
               VIEW PROJECT

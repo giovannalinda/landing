@@ -39,7 +39,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   &::selection {
-    color: ${theme.colors.primaryDark};
+    color: ${theme.colors.white};
     background:  ${theme.colors.secondaryPurple};
   }
 `
