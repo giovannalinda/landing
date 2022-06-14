@@ -56,13 +56,19 @@ export const ButtonGroup = styled.div`
 `
 
 export const SocialNetworks = styled.div`
-  p {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  small {
     color: ${theme.colors.white};
     font-size: ${theme.font.sizes.paragraph};
     margin-bottom: ${theme.space[2]};
   }
+`
 
-  button + button {
-    margin-left: ${theme.space[2]};
-  }
+export const SocialNetworksGroup = styled.div`
+  display: grid;
+  grid-gap: ${theme.space[2]};
+  grid-template-columns: repeat(4, 1fr);
 `

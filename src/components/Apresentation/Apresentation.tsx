@@ -23,19 +23,21 @@ export function Apresentation() {
       </S.TextGroup>
 
       <S.SocialNetworks>
-        <p>Follow me on</p>
-        <Button size='sm' variant='white'>
-          <ImDribbble size={20} />
-        </Button>
-        <Button size='sm'>
-          <ImBehance size={20} />
-        </Button>
-        <Button size='sm' variant='white'>
-          <ImFacebook size={20} />
-        </Button>
-        <Button size='sm' variant='white'>
-          <ImTwitter size={20} />
-        </Button>
+        <small>Follow me on</small>
+        <S.SocialNetworksGroup>
+          <Button size='sm' variant='white'>
+            <ImDribbble size={20} />
+          </Button>
+          <Button size='sm'>
+            <ImBehance size={20} />
+          </Button>
+          <Button size='sm' variant='white'>
+            <ImFacebook size={20} />
+          </Button>
+          <Button size='sm' variant='white'>
+            <ImTwitter size={20} />
+          </Button>
+        </S.SocialNetworksGroup>
       </S.SocialNetworks>
     </S.Container>
   )
