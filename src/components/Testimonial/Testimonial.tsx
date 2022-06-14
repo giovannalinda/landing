@@ -1,15 +1,14 @@
-import { Title } from '../Title'
-
-import { BsFillStarFill } from 'react-icons/bs'
-
 import { useRef } from 'react'
+import { BsFillStarFill } from 'react-icons/bs'
+import Image from 'next/image'
 
+import { Assets } from '~/assets'
+import { Title } from '~/components'
 import { useIndicator } from '~/lib/useIndicator'
+
 import { TestimonialCard } from './TestimonialCard'
 
 import * as S from './Testimonial.styled'
-import Image from 'next/image'
-import { Assets } from '~/assets'
 
 const people = [
   {
@@ -61,13 +60,14 @@ export function Testimonial() {
           ))}
         </S.TestimonialList>
 
-        <S.Testimonial>
+        <S.QuoteContainer>
           <span>
-            <BsFillStarFill size={24} /> 5.0 Star Rating
+            <BsFillStarFill size={24} />
+            5.0 Star Rating
           </span>
-          <S.ContainerImage>
+          <S.QuoteImageWrapper>
             <Image src={Assets.Quote} width='95' height='75' />
-          </S.ContainerImage>
+          </S.QuoteImageWrapper>
           <p>
             “If you&apos;re looking for someone who will challenge your UX/UI
             thinking and really cut to the core of what&apos;s important for
@@ -77,7 +77,7 @@ export function Testimonial() {
           </p>
 
           <S.Indicator top={indicatorPosition} />
-        </S.Testimonial>
+        </S.QuoteContainer>
       </S.TestimonialGroup>
     </S.Container>
   )

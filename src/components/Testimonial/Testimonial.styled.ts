@@ -1,24 +1,27 @@
 import styled from 'styled-components'
-import { theme } from '~/styles'
+import { theme } from '~/styles/theme'
+
+type IndicatorProps = {
+  top: number
+}
 
 export const Container = styled.section`
-  max-width: ${theme.grid.lg};
-  width: 100%;
-  margin: 28.4rem auto 0;
+  padding-top: 18rem;
+  padding-bottom: 10rem;
 `
 
 export const TestimonialGroup = styled.div`
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-gap: 4.4rem;
-  margin-top: 5rem;
+  margin-top: ${theme.space[8]};
   color: ${theme.colors.primaryDark};
 `
 
 export const TestimonialList = styled.ul`
   display: grid;
   grid-template-rows: repeat(4, 1fr);
-  grid-gap: 0.4rem;
+  grid-gap: ${theme.space[0]};
 `
 
 export const TertimonialCardButton = styled.button`
@@ -26,20 +29,20 @@ export const TertimonialCardButton = styled.button`
   align-items: center;
   background: ${theme.colors.white};
   padding: ${theme.space[5]};
-  border-radius: ${theme.borderRadius.listItem};
-  transition: 0.4s;
+  border-radius: ${theme.borderRadius.md};
+  transition: all 0.4s;
   width: 100%;
 
-  :hover {
-    background: #dfe3eb;
+  &:hover {
+    background: ${theme.colors.gray100};
   }
 `
 
 export const TestimonialProfile = styled.div`
+  background: ${theme.colors.gray500};
   border-radius: ${theme.borderRadius.rounded};
   width: 5.2rem;
   height: 5.2rem;
-  background: ${theme.colors.gray500};
 `
 
 export const TestimonialClient = styled.div`
@@ -51,7 +54,7 @@ export const TestimonialClient = styled.div`
   h3 {
     font-size: ${theme.font.sizes.large};
     font-weight: ${theme.font.weigths.regular};
-    margin-bottom: 0.3rem;
+    margin-bottom: ${theme.space[0]};
   }
 
   small {
@@ -64,11 +67,11 @@ export const TestimonialClient = styled.div`
   }
 `
 
-export const Testimonial = styled.div`
-  padding: 5.2rem;
+export const QuoteContainer = styled.div`
+  padding: ${theme.space[9]};
   position: relative;
-  border-radius: ${theme.borderRadius.quote};
   background: ${theme.colors.white};
+  border-radius: ${theme.borderRadius.md};
 
   span {
     font-size: ${theme.font.sizes.large};
@@ -78,8 +81,8 @@ export const Testimonial = styled.div`
     color: ${theme.colors.primaryDark};
 
     svg {
-      color: #ff8718;
-      margin-right: 1rem;
+      color: ${theme.colors.secondaryOrange};
+      margin-right: ${theme.space[1]};
     }
   }
 
@@ -91,15 +94,11 @@ export const Testimonial = styled.div`
   }
 `
 
-export const ContainerImage = styled.div`
-  display: flex;
-  justify-content: right;
-  margin-top: -5rem;
+export const QuoteImageWrapper = styled.div`
+  position: absolute;
+  right: ${theme.space[5]};
+  top: ${theme.space[5]};
 `
-
-type IndicatorProps = {
-  top: number
-}
 
 export const Indicator = styled.div<IndicatorProps>`
   position: absolute;
