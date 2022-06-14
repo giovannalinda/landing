@@ -3,7 +3,7 @@
 exports[`WorkCard should match snapshot 1`] = `
 <button
   aria-label="Eduguard - E-learning Website"
-  class="sc-dkzDqf gcXXDl"
+  class="sc-dkzDqf iHailI"
 >
   <span
     style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
@@ -33,7 +33,7 @@ exports[`WorkCard should match snapshot 1`] = `
       Eduguard - E-learning Website
     </h3>
     <div
-      class="sc-gsnTZi bljDYF"
+      class="sc-gsnTZi freJdh"
     >
       <span>
         VIEW PROJECT

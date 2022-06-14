@@ -2,8 +2,11 @@
 
 exports[`Footer should match snapshot 1`] = `
 <footer
-  class="sc-bczRLJ cMyhdd"
+  class="sc-bczRLJ fsmWSS"
 >
+  <hr
+    class="sc-gsnTZi ixoeZt"
+  />
   <span
     style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
   >
@@ -27,9 +30,13 @@ exports[`Footer should match snapshot 1`] = `
   </span>
   <small>
     Made with 💜 by John and 
-    <span>
+    <a
+      href="https://www.hypesoft.com.br/"
+      rel="noreferrer"
+      target="_blank"
+    >
       Hypesoft
-    </span>
+    </a>
   </small>
 </footer>
 `;

@@ -2,7 +2,8 @@
 
 exports[`MyWorks should match snapshot 1`] = `
 <section
-  class="sc-gKXOVf kgPulR"
+  class="sc-gKXOVf csOByT"
+  id="works"
 >
   <h1
     class="sc-bczRLJ jSHJYa"
@@ -10,15 +11,15 @@ exports[`MyWorks should match snapshot 1`] = `
     My Selected Work
   </h1>
   <hr
-    class="sc-gsnTZi gDcchB"
+    class="sc-gsnTZi fRSHIc"
   />
   <ul
-    class="sc-iBkjds ipkqBA"
+    class="sc-iBkjds gZDsz"
   >
     <li>
       <button
         aria-label="Eduguard - E-learning Website"
-        class="sc-eCYdqJ iwmGuP"
+        class="sc-eCYdqJ eQEwjK"
       >
         <span
           style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
@@ -48,7 +49,7 @@ exports[`MyWorks should match snapshot 1`] = `
             Eduguard - E-learning Website
           </h3>
           <div
-            class="sc-hKMtZM iFzpWx"
+            class="sc-hKMtZM fyfKhx"
           >
             <span>
               VIEW PROJECT
@@ -74,7 +75,7 @@ exports[`MyWorks should match snapshot 1`] = `
     <li>
       <button
         aria-label="Eduguard - E-learning Website"
-        class="sc-eCYdqJ iwmGuP"
+        class="sc-eCYdqJ eQEwjK"
       >
         <span
           style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
@@ -104,7 +105,7 @@ exports[`MyWorks should match snapshot 1`] = `
             Eduguard - E-learning Website
           </h3>
           <div
-            class="sc-hKMtZM iFzpWx"
+            class="sc-hKMtZM fyfKhx"
           >
             <span>
               VIEW PROJECT
@@ -130,7 +131,7 @@ exports[`MyWorks should match snapshot 1`] = `
     <li>
       <button
         aria-label="Huma Marketing Agency"
-        class="sc-eCYdqJ iwmGuP"
+        class="sc-eCYdqJ eQEwjK"
       >
         <span
           style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
@@ -160,7 +161,7 @@ exports[`MyWorks should match snapshot 1`] = `
             Huma Marketing Agency
           </h3>
           <div
-            class="sc-hKMtZM iFzpWx"
+            class="sc-hKMtZM fyfKhx"
           >
             <span>
               VIEW PROJECT
@@ -186,7 +187,7 @@ exports[`MyWorks should match snapshot 1`] = `
     <li>
       <button
         aria-label="Beeryblog Blog Website"
-        class="sc-eCYdqJ iwmGuP"
+        class="sc-eCYdqJ eQEwjK"
       >
         <span
           style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
@@ -216,7 +217,7 @@ exports[`MyWorks should match snapshot 1`] = `
             Beeryblog Blog Website
           </h3>
           <div
-            class="sc-hKMtZM iFzpWx"
+            class="sc-hKMtZM fyfKhx"
           >
             <span>
               VIEW PROJECT
@@ -242,7 +243,7 @@ exports[`MyWorks should match snapshot 1`] = `
     <li>
       <button
         aria-label="Educare Elearning website"
-        class="sc-eCYdqJ iwmGuP"
+        class="sc-eCYdqJ eQEwjK"
       >
         <span
           style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
@@ -272,7 +273,7 @@ exports[`MyWorks should match snapshot 1`] = `
             Educare Elearning website
           </h3>
           <div
-            class="sc-hKMtZM iFzpWx"
+            class="sc-hKMtZM fyfKhx"
           >
             <span>
               VIEW PROJECT
@@ -298,7 +299,7 @@ exports[`MyWorks should match snapshot 1`] = `
     <li>
       <button
         aria-label="Blogy Blog Website"
-        class="sc-eCYdqJ iwmGuP"
+        class="sc-eCYdqJ eQEwjK"
       >
         <span
           style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
@@ -328,7 +329,7 @@ exports[`MyWorks should match snapshot 1`] = `
             Blogy Blog Website
           </h3>
           <div
-            class="sc-hKMtZM iFzpWx"
+            class="sc-hKMtZM fyfKhx"
           >
             <span>
               VIEW PROJECT
