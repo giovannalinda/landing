@@ -1,14 +1,19 @@
-import { ButtonHTMLAttributes, ReactNode } from 'react'
+import { ButtonHTMLAttributes, ReactNode, AnchorHTMLAttributes } from 'react'
 import { CgArrowLongRight } from 'react-icons/cg'
 
 import * as S from './Button.styled'
 
+type NativeProps =
+  | AnchorHTMLAttributes<HTMLAnchorElement>
+  | ButtonHTMLAttributes<HTMLButtonElement>
+
 export type ButtonProps = {
+  as?: 'a' | 'button'
   children: ReactNode
   size?: 'sm' | 'md'
   rounded?: boolean
   variant?: 'purple' | 'white' | 'outlined'
-} & ButtonHTMLAttributes<HTMLButtonElement>
+} & NativeProps
 
 export type ButtonAnimationProps = {
   children: ReactNode
@@ -16,13 +21,21 @@ export type ButtonAnimationProps = {
 }
 
 export function Button({
+  as,
   children,
   size = 'md',
   rounded = false,
   variant = 'purple',
+  ...rest
 }: ButtonProps) {
   return (
-    <S.Container size={size} rounded={rounded} variant={variant}>
+    <S.Container
+      as={as}
+      size={size}
+      rounded={rounded}
+      variant={variant}
+      {...rest}
+    >
       {children}
     </S.Container>
   )
