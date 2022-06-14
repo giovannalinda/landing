@@ -1,7 +1,8 @@
 import Image from 'next/image'
-import { Assets } from '~/assets'
 
-import { Title } from '../Title'
+import { Assets } from '~/assets'
+import { Title } from '~/components'
+
 import { WorkCard } from './WorkCard'
 
 import * as S from './MyWorks.styled'

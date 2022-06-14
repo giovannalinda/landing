@@ -1,4 +1,5 @@
-import { Header, Footer } from '~/components'
+import { Header } from './Header'
+import { Footer } from './Footer'
 
 import { Content, Background } from './Layout.styled'
 

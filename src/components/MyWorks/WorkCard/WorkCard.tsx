@@ -1,5 +1,6 @@
 import { ReactNode } from 'react'
-import { Button, useButtonAnimation } from '~/components/Button'
+
+import { Button, useButtonAnimation } from '~/components'
 
 import * as S from './WorkCard.styled'
 
