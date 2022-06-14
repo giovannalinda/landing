@@ -8,7 +8,7 @@ import * as S from './MyWorks.styled'
 
 export function MyWorks() {
   return (
-    <S.Container>
+    <S.Container id='works'>
       <Title>My Selected Work</Title>
 
       <S.WorksList>
