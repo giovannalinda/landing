@@ -40,6 +40,7 @@ export const TextGroup = styled.div`
   font-size: 3.2rem;
   text-align: left;
   line-height: 4rem;
+  max-width: 15rem;
   color: ${theme.colors.primaryDark};
 `
 
