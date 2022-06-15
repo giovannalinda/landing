@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react'
+import { render } from '~/__helpers__/app-tests'
 import { ContactInfo } from './ContactInfo'
 
 describe('ContactInfo', () => {

@@ -1,10 +1,10 @@
 import Image from 'next/image'
-import { Assets } from '~/assets'
 import { CgArrowLongRight } from 'react-icons/cg'
 
-import * as S from './Companies.styled'
-import Link from 'next/link'
+import { Assets } from '~/assets'
 import { useTranslation } from '~/lib/useTranslation'
+
+import * as S from './Companies.styled'
 
 const companies = [
   {
@@ -42,11 +42,9 @@ export function Companies() {
       <S.CompaniesList>
         {companies.map((company) => (
           <li key={company.name} aria-label={company.name}>
-            <Link href={company.url}>
-              <S.CompanyCard target='_blank' rel='noreferrer'>
-                <Image src={company.logo} width='113' height='26' />
-              </S.CompanyCard>
-            </Link>
+            <S.CompanyCard target='_blank' rel='noreferrer' href={company.url}>
+              <Image src={company.logo} width='113' height='26' />
+            </S.CompanyCard>
           </li>
         ))}
 

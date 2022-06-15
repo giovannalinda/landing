@@ -1,6 +1,6 @@
-import { render, screen } from '@testing-library/react'
-import userEvent from '@testing-library/user-event'
+import { render, screen, userEvent } from '~/__helpers__/app-tests'
 import { FiCode } from 'react-icons/fi'
+
 import { ServiceCard } from '.'
 
 describe('ServiceCard', () => {

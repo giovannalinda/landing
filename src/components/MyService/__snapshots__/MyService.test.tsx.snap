@@ -2,24 +2,24 @@
 
 exports[`MyService should match snapshot 1`] = `
 <section
-  class="sc-hTtwUo bTnLPt"
+  class="sc-jgbSNz kXyhFE"
   id="services"
 >
   <h1
-    class="sc-iqcoie iHkNIx"
+    class="sc-crXcEl cIwlIC"
   >
     My Service
   </h1>
   <hr
-    class="sc-crXcEl gVqdgC"
+    class="sc-evZas jMkLXy"
   />
   <ul
-    class="sc-jgbSNz ehgqOA"
+    class="sc-gSAPjG erguwU"
   >
     <li>
       <button
         aria-label="UI/UX Design"
-        class="sc-cOFTSb FSChh"
+        class="sc-BeQoi hkxNZT"
       >
         <svg
           fill="none"
@@ -43,17 +43,21 @@ exports[`MyService should match snapshot 1`] = `
           />
         </svg>
         <div
-          class="sc-BeQoi bXbUQb"
+          class="sc-kgUAyh fjuIqX"
         >
           UI/UX Design
           <hr
-            class="sc-kgUAyh wkrna"
+            class="sc-hTtwUo lpeUBC"
           />
           <div
-            class="sc-gsnTZi freJdh"
+            class="sc-bczRLJ hVmybn"
           >
             <span>
-              Discuss now
+              <a
+                href="mailto:eugiovannasouza@gmail.com"
+              >
+                Discuss now
+              </a>
             </span>
             <svg
               fill="none"
@@ -65,8 +69,10 @@ exports[`MyService should match snapshot 1`] = `
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z"
+                clip-rule="evenodd"
+                d="M18.73 7.75739L22.9798 11.9929L18.7443 16.2426L17.3277 14.8308L19.142 13.0103L6.85364 13.0525C6.44678 14.219 5.33954 15.0584 4.03368 15.0642C2.37684 15.0717 1.02767 13.7346 1.02023 12.0777C1.01279 10.4209 2.34989 9.07173 4.00673 9.06429C5.31328 9.05842 6.4285 9.88867 6.84531 11.0525L19.1607 11.0103L17.3182 9.17398L18.73 7.75739ZM5.02019 12.0598C5.01771 11.5075 4.56799 11.0618 4.01571 11.0643C3.46343 11.0667 3.01773 11.5165 3.02021 12.0687C3.02269 12.621 3.47242 13.0667 4.02469 13.0642C4.57697 13.0618 5.02267 12.612 5.02019 12.0598Z"
                 fill="currentColor"
+                fill-rule="evenodd"
               />
             </svg>
           </div>
@@ -76,7 +82,7 @@ exports[`MyService should match snapshot 1`] = `
     <li>
       <button
         aria-label="Product Design"
-        class="sc-cOFTSb FSChh"
+        class="sc-BeQoi hkxNZT"
       >
         <svg
           fill="none"
@@ -103,17 +109,21 @@ exports[`MyService should match snapshot 1`] = `
           />
         </svg>
         <div
-          class="sc-BeQoi bXbUQb"
+          class="sc-kgUAyh fjuIqX"
         >
           Product Design
           <hr
-            class="sc-kgUAyh wkrna"
+            class="sc-hTtwUo lpeUBC"
           />
           <div
-            class="sc-gsnTZi freJdh"
+            class="sc-bczRLJ hVmybn"
           >
             <span>
-              Discuss now
+              <a
+                href="mailto:eugiovannasouza@gmail.com"
+              >
+                Discuss now
+              </a>
             </span>
             <svg
               fill="none"
@@ -125,8 +135,10 @@ exports[`MyService should match snapshot 1`] = `
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z"
+                clip-rule="evenodd"
+                d="M18.73 7.75739L22.9798 11.9929L18.7443 16.2426L17.3277 14.8308L19.142 13.0103L6.85364 13.0525C6.44678 14.219 5.33954 15.0584 4.03368 15.0642C2.37684 15.0717 1.02767 13.7346 1.02023 12.0777C1.01279 10.4209 2.34989 9.07173 4.00673 9.06429C5.31328 9.05842 6.4285 9.88867 6.84531 11.0525L19.1607 11.0103L17.3182 9.17398L18.73 7.75739ZM5.02019 12.0598C5.01771 11.5075 4.56799 11.0618 4.01571 11.0643C3.46343 11.0667 3.01773 11.5165 3.02021 12.0687C3.02269 12.621 3.47242 13.0667 4.02469 13.0642C4.57697 13.0618 5.02267 12.612 5.02019 12.0598Z"
                 fill="currentColor"
+                fill-rule="evenodd"
               />
             </svg>
           </div>
@@ -136,7 +148,7 @@ exports[`MyService should match snapshot 1`] = `
     <li>
       <button
         aria-label="Branding Design"
-        class="sc-cOFTSb FSChh"
+        class="sc-BeQoi hkxNZT"
       >
         <svg
           fill="none"
@@ -154,17 +166,21 @@ exports[`MyService should match snapshot 1`] = `
           />
         </svg>
         <div
-          class="sc-BeQoi bXbUQb"
+          class="sc-kgUAyh fjuIqX"
         >
           Branding Design
           <hr
-            class="sc-kgUAyh wkrna"
+            class="sc-hTtwUo lpeUBC"
           />
           <div
-            class="sc-gsnTZi freJdh"
+            class="sc-bczRLJ hVmybn"
           >
             <span>
-              Discuss now
+              <a
+                href="mailto:eugiovannasouza@gmail.com"
+              >
+                Discuss now
+              </a>
             </span>
             <svg
               fill="none"
@@ -176,8 +192,10 @@ exports[`MyService should match snapshot 1`] = `
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z"
+                clip-rule="evenodd"
+                d="M18.73 7.75739L22.9798 11.9929L18.7443 16.2426L17.3277 14.8308L19.142 13.0103L6.85364 13.0525C6.44678 14.219 5.33954 15.0584 4.03368 15.0642C2.37684 15.0717 1.02767 13.7346 1.02023 12.0777C1.01279 10.4209 2.34989 9.07173 4.00673 9.06429C5.31328 9.05842 6.4285 9.88867 6.84531 11.0525L19.1607 11.0103L17.3182 9.17398L18.73 7.75739ZM5.02019 12.0598C5.01771 11.5075 4.56799 11.0618 4.01571 11.0643C3.46343 11.0667 3.01773 11.5165 3.02021 12.0687C3.02269 12.621 3.47242 13.0667 4.02469 13.0642C4.57697 13.0618 5.02267 12.612 5.02019 12.0598Z"
                 fill="currentColor"
+                fill-rule="evenodd"
               />
             </svg>
           </div>
@@ -187,7 +205,7 @@ exports[`MyService should match snapshot 1`] = `
     <li>
       <button
         aria-label="Front End Development"
-        class="sc-cOFTSb FSChh"
+        class="sc-BeQoi hkxNZT"
       >
         <svg
           fill="none"
@@ -208,17 +226,21 @@ exports[`MyService should match snapshot 1`] = `
           />
         </svg>
         <div
-          class="sc-BeQoi bXbUQb"
+          class="sc-kgUAyh fjuIqX"
         >
           Front End Development
           <hr
-            class="sc-kgUAyh wkrna"
+            class="sc-hTtwUo lpeUBC"
           />
           <div
-            class="sc-gsnTZi freJdh"
+            class="sc-bczRLJ hVmybn"
           >
             <span>
-              Discuss now
+              <a
+                href="mailto:eugiovannasouza@gmail.com"
+              >
+                Discuss now
+              </a>
             </span>
             <svg
               fill="none"
@@ -230,8 +252,10 @@ exports[`MyService should match snapshot 1`] = `
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z"
+                clip-rule="evenodd"
+                d="M18.73 7.75739L22.9798 11.9929L18.7443 16.2426L17.3277 14.8308L19.142 13.0103L6.85364 13.0525C6.44678 14.219 5.33954 15.0584 4.03368 15.0642C2.37684 15.0717 1.02767 13.7346 1.02023 12.0777C1.01279 10.4209 2.34989 9.07173 4.00673 9.06429C5.31328 9.05842 6.4285 9.88867 6.84531 11.0525L19.1607 11.0103L17.3182 9.17398L18.73 7.75739ZM5.02019 12.0598C5.01771 11.5075 4.56799 11.0618 4.01571 11.0643C3.46343 11.0667 3.01773 11.5165 3.02021 12.0687C3.02269 12.621 3.47242 13.0667 4.02469 13.0642C4.57697 13.0618 5.02267 12.612 5.02019 12.0598Z"
                 fill="currentColor"
+                fill-rule="evenodd"
               />
             </svg>
           </div>

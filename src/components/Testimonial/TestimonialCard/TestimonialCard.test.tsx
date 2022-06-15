@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react'
+import { render, screen } from '~/__helpers__/app-tests'
 import { TestimonialCard } from './TestimonialCard'
 
 describe('TestimonialCard', () => {

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Link from 'next/link'
+
 import { Assets } from '~/assets'
 import { useTranslation } from '~/lib/useTranslation'
 
@@ -14,11 +14,9 @@ export function Footer() {
       <Image src={Assets.Logo} width='263' height='59' />
       <small>
         {t('Made with')} 💜 {t('by Giovanna and ')}
-        <Link href='https://www.hypesoft.com.br/' passHref>
-          <a target='_blank' rel='noreferrer'>
-            Hypesoft
-          </a>
-        </Link>
+        <a target='_blank' rel='noreferrer' href='https://www.hypesoft.com.br/'>
+          Hypesoft
+        </a>
       </small>
     </S.Footer>
   )

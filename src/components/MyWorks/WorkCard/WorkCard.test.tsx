@@ -1,5 +1,5 @@
-import { render, screen } from '@testing-library/react'
-import userEvent from '@testing-library/user-event'
+import { render, screen, userEvent } from '~/__helpers__/app-tests'
+
 import Image from 'next/image'
 
 import { Assets } from '~/assets'
@@ -8,7 +8,7 @@ import { WorkCard } from '.'
 describe('WorkCard', () => {
   it('should render correctly', async () => {
     render(
-      <WorkCard title='Eduguard - E-learning Website'>
+      <WorkCard href='https://url.com' title='Eduguard - E-learning Website'>
         <Image src={Assets.ImgWork1} width='424' height='332' />
       </WorkCard>,
     )
@@ -21,7 +21,7 @@ describe('WorkCard', () => {
 
   it('should match snapshot', async () => {
     const { container } = render(
-      <WorkCard title='Eduguard - E-learning Website'>
+      <WorkCard href='https://url.co' title='Eduguard - E-learning Website'>
         <Image src={Assets.ImgWork1} width='424' height='332' />
       </WorkCard>,
     )
@@ -31,7 +31,7 @@ describe('WorkCard', () => {
 
   it("should render 'view project' when user hover button", async () => {
     render(
-      <WorkCard title='Eduguard - E-learning Website'>
+      <WorkCard href='https://url.co' title='Eduguard - E-learning Website'>
         <Image src={Assets.ImgWork1} width='424' height='332' />
       </WorkCard>,
     )

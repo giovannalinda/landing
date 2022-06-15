@@ -1,10 +1,7 @@
 import styled, { css } from 'styled-components'
 import { theme } from '~/styles'
-import { ButtonProps } from './Button'
 
-type ButtonAnimationWrapperProps = {
-  visible: boolean
-}
+import { ButtonProps } from './Button'
 
 const sizes = (rounded: boolean) => ({
   sm: css`
@@ -87,41 +84,4 @@ export const Container = styled.button<ButtonProps>`
     font-size: ${theme.font.sizes.small};
     white-space: nowrap;
   }
-`
-
-export const ButtonAnimationWrapper = styled.div<ButtonAnimationWrapperProps>`
-  display: flex;
-  align-items: center;
-  position: relative;
-
-  svg {
-    position: absolute;
-    left: 0;
-    transition: all ${theme.transitions.fast};
-  }
-
-  span {
-    opacity: 0;
-    white-space: nowrap;
-    visibility: hidden;
-    transition: all ${theme.transitions.slow};
-    text-transform: uppercase;
-    margin-right: ${theme.space[1]};
-    color: ${theme.colors.secondaryPink};
-    font-size: ${theme.font.sizes.paragraph};
-    font-weight: ${theme.font.weigths.semiBold};
-  }
-
-  ${({ visible }) =>
-    visible &&
-    css`
-      svg {
-        left: 13.2rem;
-      }
-
-      span {
-        opacity: 1;
-        visibility: visible;
-      }
-    `}
 `

@@ -11,24 +11,16 @@ export function Header() {
       <S.Navigation>
         <ul>
           <li>
-            <Link href='#about' scroll>
-              {t('About').toUpperCase()}
-            </Link>
+            <Link href='#about'>{t('About').toUpperCase()}</Link>
           </li>
           <li>
-            <Link href='#services' scroll>
-              {t('Services').toUpperCase()}
-            </Link>
+            <Link href='#services'>{t('Services').toUpperCase()}</Link>
           </li>
           <li>
-            <Link href='#works' scroll>
-              {t('Works').toUpperCase()}
-            </Link>
+            <Link href='#works'>{t('Works').toUpperCase()}</Link>
           </li>
           <li>
-            <Link href='#contact' scroll>
-              {t('Contact').toUpperCase()}
-            </Link>
+            <Link href='#contact'>{t('Contact').toUpperCase()}</Link>
           </li>
         </ul>
       </S.Navigation>

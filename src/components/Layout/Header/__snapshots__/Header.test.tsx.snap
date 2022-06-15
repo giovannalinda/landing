@@ -2,36 +2,36 @@
 
 exports[`Header should match snapshot 1`] = `
 <header
-  class="sc-bczRLJ bscaEW"
+  class="sc-bczRLJ ksbZmO"
 >
   <nav
-    class="sc-gsnTZi gsVjVf"
+    class="sc-gsnTZi eDILmX"
   >
     <ul>
       <li>
         <a
-          href="/#about"
+          href="#about"
         >
           ABOUT
         </a>
       </li>
       <li>
         <a
-          href="/#services"
+          href="#services"
         >
           SERVICES
         </a>
       </li>
       <li>
         <a
-          href="/#works"
+          href="#works"
         >
           WORKS
         </a>
       </li>
       <li>
         <a
-          href="/#contact"
+          href="#contact"
         >
           CONTACT
         </a>

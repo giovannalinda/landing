@@ -3,40 +3,29 @@
 exports[`WorkCard should match snapshot 1`] = `
 <button
   aria-label="Eduguard - E-learning Website"
-  class="sc-hTtwUo eEkUeT"
+  class="sc-jgbSNz iRNUjC"
 >
-  <span
-    style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-  >
-    <span
-      style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-    >
-      <img
-        alt=""
-        aria-hidden="true"
-        src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27424%27%20height=%27332%27/%3e"
-        style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-      />
-    </span>
-    <img
-      data-nimg="intrinsic"
-      decoding="async"
-      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-    />
-    <noscript />
-  </span>
+  <img
+    height="332"
+    src="/imgwork1.png"
+    width="424"
+  />
   <div
-    class="sc-jgbSNz gboEIk"
+    class="sc-gSAPjG kHszuj"
   >
     <h3>
       Eduguard - E-learning Website
     </h3>
     <div
-      class="sc-gsnTZi freJdh"
+      class="sc-bczRLJ hVmybn"
     >
       <span>
-        VIEW PROJECT
+        <a
+          href="https://url.co"
+          target="_blank"
+        >
+          View Project
+        </a>
       </span>
       <svg
         fill="none"
@@ -48,8 +37,10 @@ exports[`WorkCard should match snapshot 1`] = `
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z"
+          clip-rule="evenodd"
+          d="M18.73 7.75739L22.9798 11.9929L18.7443 16.2426L17.3277 14.8308L19.142 13.0103L6.85364 13.0525C6.44678 14.219 5.33954 15.0584 4.03368 15.0642C2.37684 15.0717 1.02767 13.7346 1.02023 12.0777C1.01279 10.4209 2.34989 9.07173 4.00673 9.06429C5.31328 9.05842 6.4285 9.88867 6.84531 11.0525L19.1607 11.0103L17.3182 9.17398L18.73 7.75739ZM5.02019 12.0598C5.01771 11.5075 4.56799 11.0618 4.01571 11.0643C3.46343 11.0667 3.01773 11.5165 3.02021 12.0687C3.02269 12.621 3.47242 13.0667 4.02469 13.0642C4.57697 13.0618 5.02267 12.612 5.02019 12.0598Z"
           fill="currentColor"
+          fill-rule="evenodd"
         />
       </svg>
     </div>

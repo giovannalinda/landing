@@ -28,7 +28,8 @@ export function Apresentation() {
           <Link href='mailto:eugiovannasouza@gmail.com'>
             <Button>{t('Hire me')}</Button>
           </Link>
-          <Link href='#works' scroll>
+
+          <Link href='#works'>
             <Button variant='white'>{t('View work')}</Button>
           </Link>
         </S.ButtonGroup>
@@ -37,44 +38,45 @@ export function Apresentation() {
       <S.SocialNetworks>
         <small>{t('Follow me on')}</small>
         <S.SocialNetworksGroup>
-          <Link href='https://github.com/giovannalinda' passHref>
-            <Button
-              as='a'
-              size='sm'
-              variant='white'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <ImGithub size={20} />
-            </Button>
-          </Link>
-          <Link href='https://www.linkedin.com/in/giovannalinda' passHref>
-            <Button as='a' size='sm' target='_blank' rel='noreferrer'>
-              <ImLinkedin2 size={20} />
-            </Button>
-          </Link>
-          <Link href='https://www.instagram.com/_gripada' passHref>
-            <Button
-              as='a'
-              size='sm'
-              variant='white'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <BsInstagram size={20} />
-            </Button>
-          </Link>
-          <Link href='https://medium.com/@eugiovannasouza' passHref>
-            <Button
-              as='a'
-              size='sm'
-              variant='white'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <BsMedium size={20} />
-            </Button>
-          </Link>
+          <Button
+            as='a'
+            size='sm'
+            variant='white'
+            target='_blank'
+            rel='noreferrer'
+            href='https://github.com/giovannalinda'
+          >
+            <ImGithub size={20} />
+          </Button>
+          <Button
+            as='a'
+            size='sm'
+            target='_blank'
+            rel='noreferrer'
+            href='https://www.linkedin.com/in/giovannalinda'
+          >
+            <ImLinkedin2 size={20} />
+          </Button>
+          <Button
+            as='a'
+            size='sm'
+            variant='white'
+            target='_blank'
+            rel='noreferrer'
+            href='https://www.instagram.com/_gripada'
+          >
+            <BsInstagram size={20} />
+          </Button>
+          <Button
+            as='a'
+            size='sm'
+            variant='white'
+            target='_blank'
+            rel='noreferrer'
+            href='https://medium.com/@eugiovannasouza'
+          >
+            <BsMedium size={20} />
+          </Button>
         </S.SocialNetworksGroup>
       </S.SocialNetworks>
     </S.Container>

@@ -2,10 +2,10 @@
 
 exports[`Banner should match snapshot 1`] = `
 <section
-  class="sc-dkzDqf hxCMOw"
+  class="sc-gsnTZi hmNYdX"
 >
   <div
-    class="sc-hKMtZM tTqXE"
+    class="sc-dkzDqf iHatTL"
   >
     <p>
       Got a project in mind? Let's make something awesome 
@@ -16,9 +16,10 @@ exports[`Banner should match snapshot 1`] = `
     </p>
   </div>
   <button
-    class="sc-bczRLJ sc-eCYdqJ cQHTfc bwKzYq"
+    class="sc-bczRLJ sc-hKMtZM fhxDpE bknSvH"
   >
-    HIRE ME 
+    Hire me
+     
     <svg
       fill="none"
       height="20"

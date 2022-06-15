@@ -30,9 +30,9 @@ exports[`ContactList should match snapshot 1`] = `
       </svg>
     </div>
     <small>
-      House #5, Street Number #98,
+      Diadema,
       <br />
-       brasilia- 70000-000, Brazil.
+       São Paulo - SP, Brazil.
     </small>
   </li>
   <li>
@@ -59,9 +59,9 @@ exports[`ContactList should match snapshot 1`] = `
       </svg>
     </div>
     <small>
-      albert.design@gmail.com 
+      eugiovannasouza@gmail.com 
       <br />
-      albert.flores@gmail.com
+      oigiovannalinda@gmail.com
     </small>
   </li>
   <li>
