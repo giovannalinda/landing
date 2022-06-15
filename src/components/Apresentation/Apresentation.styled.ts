@@ -8,6 +8,11 @@ export const Container = styled.section`
   height: calc(100vh - 20rem);
   padding-bottom: ${theme.space[8]};
   margin-top: 13rem;
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    margin-top: 8rem;
+    padding-bottom: ${theme.space[4]};
+  }
 `
 
 export const TextGroup = styled.div`
@@ -42,6 +47,23 @@ export const TextGroup = styled.div`
     margin: ${theme.space[6]} 0;
     line-height: ${theme.font.lineHeights.paragraph};
   }
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    text-align: center;
+
+    h1 {
+      font-size: ${theme.font.sizes.subtitle};
+
+      &::before {
+        display: none;
+      }
+    }
+
+    p {
+      font-size: ${theme.font.sizes.small};
+      line-height: 2.4rem;
+    }
+  }
 `
 
 export const ButtonGroup = styled.div`
@@ -50,6 +72,11 @@ export const ButtonGroup = styled.div`
 
   button + button {
     margin-left: ${theme.space[4]};
+  }
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 `
 
@@ -62,6 +89,11 @@ export const SocialNetworks = styled.div`
     color: ${theme.colors.white};
     font-size: ${theme.font.sizes.paragraph};
     margin-bottom: ${theme.space[2]};
+  }
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    margin: 0 auto;
+    align-items: center;
   }
 `
 
