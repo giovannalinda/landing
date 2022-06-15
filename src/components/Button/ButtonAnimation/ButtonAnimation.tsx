@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import { CgArrowLongRightC } from 'react-icons/cg'
+import { CgArrowLongRight } from 'react-icons/cg'
 
 import * as S from './ButtonAnimation.styled'
 
@@ -15,7 +15,7 @@ export function ButtonAnimation({
   return (
     <S.Container visible={visible}>
       <span>{children}</span>
-      <CgArrowLongRightC size={24} />
+      <CgArrowLongRight size={24} />
     </S.Container>
   )
 }

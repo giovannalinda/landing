@@ -6,8 +6,12 @@ export const Header = styled.header`
   width: 100%;
   margin: 0 auto;
   padding: ${theme.space[6]} 0;
+  display: flex;
+  align-items: flex-start;
 
   @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    align-items: center;
+    padding: ${theme.space[6]} ${theme.space[4]};
     background: ${theme.colors.secondaryPurple};
     border-radius: 0 0 ${theme.borderRadius.lg} ${theme.borderRadius.lg};
   }

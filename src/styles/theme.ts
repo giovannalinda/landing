@@ -36,6 +36,7 @@ export const theme = {
     gray100: '#dfe3eb',
     purple50: '#f0edff',
     gray500: '#a5a5a5',
+    gray800: '#404040',
     primaryDark: '#242424',
     secondaryPink: '#ed1ca6',
     secondaryPurple: '#7d00ff',

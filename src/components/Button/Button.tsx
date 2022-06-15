@@ -20,7 +20,7 @@ export type ButtonProps = {
   children: ReactNode
   size?: 'sm' | 'md'
   rounded?: boolean
-  variant?: 'purple' | 'white' | 'outlined'
+  variant?: 'purple' | 'white' | 'outlined' | 'neutral'
 } & NativeProps
 
 type ButtonCompoundComponet = {

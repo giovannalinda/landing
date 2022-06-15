@@ -55,6 +55,9 @@ const variants = {
       background: ${theme.colors.secondaryPurple};
     }
   `,
+  neutral: css`
+    background: ${theme.colors.gray800};
+  `,
 }
 
 export const Container = styled.button<ButtonProps>`

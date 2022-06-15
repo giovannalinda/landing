@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import { useTranslation } from '~/lib/useTranslation'
 
+import { LocaleSelect } from './LocaleSelect'
+
 import * as S from './Header.styled'
 
 export function Header() {
@@ -8,6 +10,7 @@ export function Header() {
 
   return (
     <S.Header>
+      <LocaleSelect />
       <S.Navigation>
         <ul>
           <li>
