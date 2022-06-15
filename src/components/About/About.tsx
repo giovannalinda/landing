@@ -9,7 +9,7 @@ import Link from 'next/link'
 export function About() {
   return (
     <S.Container id='about'>
-      <Image src={Assets.About} width='592' height='574' />
+      {/* <Image src={Assets.About} layout='raw' width='592' height='574' /> */}
       <S.Content>
         <h1>
           Software Engineer and Infrastructure specialist based in Brazil.
@@ -24,11 +24,11 @@ export function About() {
 
         <S.Carrer>
           <S.CarrerItem>
-            <h3>17+</h3>
+            <h3>1+</h3>
             <span>Years of Experience</span>
           </S.CarrerItem>
           <S.CarrerItem>
-            <h3>325+</h3>
+            <h3>28+</h3>
             <span>Completed Projects</span>
           </S.CarrerItem>
         </S.Carrer>

@@ -9,6 +9,25 @@ export const Container = styled.section`
   grid-gap: 5.6rem;
   align-items: center;
   padding-top: 13.2rem;
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    grid-template-columns: 1fr;
+  }
+`
+
+export const AboutImageWrapper = styled.div`
+  width: 100%;
+
+  > div {
+    position: unset !important;
+  }
+
+  .image {
+    object-fit: contain;
+    width: 100% !important;
+    position: unset !important;
+    height: unset !important;
+  }
 `
 
 export const Content = styled.div`
@@ -31,11 +50,35 @@ export const Content = styled.div`
     padding-top: 2rem;
     padding-bottom: 3.6rem;
   }
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    text-align: center;
+
+    h1 {
+      font-size: ${theme.font.sizes.subtitle};
+      line-height: 3.2rem;
+    }
+
+    p {
+      font-size: ${theme.font.sizes.small};
+    }
+  }
 `
 
 export const Carrer = styled.div`
   display: flex;
+  text-align: left;
   gap: ${theme.space[8]};
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    gap: ${theme.space[4]};
+    flex-direction: column;
+  }
+`
+
+export const CarrerItem = styled.div`
+  display: flex;
+  align-items: center;
 
   h3 {
     color: ${theme.colors.secondaryPink};
@@ -50,11 +93,22 @@ export const Carrer = styled.div`
     font-size: ${theme.font.sizes.large};
     line-height: ${theme.font.lineHeights.large};
   }
-`
 
-export const CarrerItem = styled.div`
-  display: flex;
-  align-items: center;
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    background: rgba(255, 255, 255, 0.015);
+    border-radius: ${theme.borderRadius.lg};
+    padding: ${theme.space[3]} ${theme.space[6]};
+
+    h3 {
+      width: 6rem;
+      font-size: ${theme.font.sizes.subtitle};
+    }
+
+    span {
+      font-size: ${theme.font.sizes.small};
+      max-width: 100%;
+    }
+  }
 `
 
 export const SayHelloButton = styled(Button)`
@@ -62,6 +116,13 @@ export const SayHelloButton = styled(Button)`
   align-items: center;
   margin-top: ${theme.space[6]};
   margin-right: auto;
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 
   svg {
     margin-left: ${theme.space[2]};
