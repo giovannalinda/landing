@@ -25,7 +25,7 @@ export const TextGroup = styled.div`
     &::before {
       content: '';
       position: absolute;
-      width: calc(100% - 14rem);
+      width: calc(100% - 5rem);
       height: 3.6rem;
       background: ${theme.colors.secondaryPurple};
       opacity: 0.15;

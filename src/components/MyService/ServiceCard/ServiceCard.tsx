@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { ReactNode } from 'react'
 
 import { Button, useButtonAnimation } from '~/components'
@@ -27,7 +28,7 @@ export function ServiceCard({ children, title }: ServiceCardProps) {
         {title}
         <S.Separator />
         <Button.Animation visible={isButtonTextVisible}>
-          Discuss now
+          <Link href='mailto:eugiovannasouza@gmail.com'>Discuss now</Link>
         </Button.Animation>
       </S.TextGroup>
     </S.Container>

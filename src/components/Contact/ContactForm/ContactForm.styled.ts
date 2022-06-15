@@ -53,4 +53,9 @@ export const SendMessage = styled(Button)`
   svg {
     margin-left: ${theme.space[2]};
   }
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    width: 100%;
+    justify-content: center;
+  }
 `

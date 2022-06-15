@@ -26,4 +26,8 @@ export const TextGroup = styled.div`
     font-weight: ${theme.font.weigths.regular};
     padding-bottom: 2.6rem;
   }
+
+  a {
+    color: ${theme.colors.secondaryPink};
+  }
 `

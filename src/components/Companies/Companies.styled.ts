@@ -6,6 +6,23 @@ export const Container = styled.section`
   justify-content: space-between;
   padding-top: 18rem;
 
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    h1 {
+      padding-bottom: ${theme.space[8]};
+    }
+
+    ul {
+      grid-template-columns: 1fr;
+      margin-left: 0;
+    }
+  }
+
   h1 {
     max-width: 31.2rem;
     font-size: ${theme.font.sizes.subtitle};

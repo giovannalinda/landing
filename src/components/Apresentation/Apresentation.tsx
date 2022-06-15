@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import { ImDribbble, ImBehance, ImFacebook, ImTwitter } from 'react-icons/im'
+import { ImGithub, ImLinkedin2 } from 'react-icons/im'
+import { BsMedium, BsInstagram } from 'react-icons/bs'
 
 import { Button } from '~/components'
 
@@ -10,16 +11,18 @@ export function Apresentation() {
     <S.Container>
       <S.TextGroup>
         <h1>
-          Hello, I’m John, a <span>Software Engineer.</span>
+          Hello, I’m Giovanna, a <span>Front end Developer.</span>
         </h1>
         <p>
-          Product Designer, UI/UX Designer, and developer based in Brazil. Over
-          the past 17 years, as an art director and designer, I’ve worked with
-          big companies and up-and-coming startups.
+          A Front End Developer with a sparkle in her eye, who cares about every
+          detail when building interfaces valuing the experience so that it
+          positively impacts people&apos;s lives.
         </p>
 
         <S.ButtonGroup>
-          <Button>HIRE ME</Button>
+          <Link href='mailto:eugiovannasouza@gmail.com'>
+            <Button>HIRE ME</Button>
+          </Link>
           <Link href='#works' scroll>
             <Button variant='white'>VIEW WORK</Button>
           </Link>
@@ -29,7 +32,7 @@ export function Apresentation() {
       <S.SocialNetworks>
         <small>Follow me on</small>
         <S.SocialNetworksGroup>
-          <Link href='https://dribbble.com/giovannalinda' passHref>
+          <Link href='https://github.com/giovannalinda' passHref>
             <Button
               as='a'
               size='sm'
@@ -37,15 +40,15 @@ export function Apresentation() {
               target='_blank'
               rel='noreferrer'
             >
-              <ImDribbble size={20} />
+              <ImGithub size={20} />
             </Button>
           </Link>
-          <Link href='https://behance.com' passHref>
+          <Link href='https://www.linkedin.com/in/giovannalinda' passHref>
             <Button as='a' size='sm' target='_blank' rel='noreferrer'>
-              <ImBehance size={20} />
+              <ImLinkedin2 size={20} />
             </Button>
           </Link>
-          <Link href='https://facebook.com' passHref>
+          <Link href='https://www.instagram.com/_gripada' passHref>
             <Button
               as='a'
               size='sm'
@@ -53,10 +56,10 @@ export function Apresentation() {
               target='_blank'
               rel='noreferrer'
             >
-              <ImFacebook size={20} />
+              <BsInstagram size={20} />
             </Button>
           </Link>
-          <Link href='https://twitter.com/gripada_' passHref>
+          <Link href='https://medium.com/@eugiovannasouza' passHref>
             <Button
               as='a'
               size='sm'
@@ -64,7 +67,7 @@ export function Apresentation() {
               target='_blank'
               rel='noreferrer'
             >
-              <ImTwitter size={20} />
+              <BsMedium size={20} />
             </Button>
           </Link>
         </S.SocialNetworksGroup>

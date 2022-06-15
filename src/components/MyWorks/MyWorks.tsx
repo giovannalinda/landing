@@ -14,37 +14,55 @@ export function MyWorks() {
 
       <S.WorksList>
         <li>
-          <WorkCard title='Eduguard - E-learning Website'>
+          <WorkCard
+            title='Landing Blizzard'
+            href='https://github.com/giovannalinda/games-page'
+          >
             <Image src={Assets.ImgWork1} width='424' height='332' />
           </WorkCard>
         </li>
 
         <li>
-          <WorkCard title='Eduguard - E-learning Website'>
+          <WorkCard
+            title='Disney+ Web App'
+            href='https://github.com/giovannalinda/disney-webapp'
+          >
             <Image src={Assets.ImgWork2} width='424' height='332' />
           </WorkCard>
         </li>
 
         <li>
-          <WorkCard title='Huma Marketing Agency'>
+          <WorkCard
+            title='Tasks Management'
+            href='https://github.com/giovannalinda/tasks-management'
+          >
             <Image src={Assets.ImgWork3} width='424' height='332' />
           </WorkCard>
         </li>
 
         <li>
-          <WorkCard title='Beeryblog Blog Website'>
+          <WorkCard
+            title='HBO Max Web App'
+            href='https://github.com/giovannalinda/movie-theater'
+          >
             <Image src={Assets.ImgWork4} width='424' height='332' />
           </WorkCard>
         </li>
 
         <li>
-          <WorkCard title='Educare Elearning website'>
+          <WorkCard
+            title='Github Explorer'
+            href='https://github.com/giovannalinda/github-explorer'
+          >
             <Image src={Assets.ImgWork5} width='424' height='332' />
           </WorkCard>
         </li>
 
         <li>
-          <WorkCard title='Blogy Blog Website'>
+          <WorkCard
+            title='Pokémon Lister'
+            href='https://github.com/giovannalinda/poke-lister'
+          >
             <Image src={Assets.ImgWork6} width='424' height='332' />
           </WorkCard>
         </li>

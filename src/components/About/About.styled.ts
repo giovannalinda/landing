@@ -16,17 +16,8 @@ export const Container = styled.section`
 `
 
 export const AboutImageWrapper = styled.div`
-  width: 100%;
-
-  > div {
-    position: unset !important;
-  }
-
-  .image {
-    object-fit: contain;
-    width: 100% !important;
-    position: unset !important;
-    height: unset !important;
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    display: none;
   }
 `
 
@@ -55,8 +46,8 @@ export const Content = styled.div`
     text-align: center;
 
     h1 {
-      font-size: ${theme.font.sizes.subtitle};
-      line-height: 3.2rem;
+      font-size: ${theme.font.sizes.title};
+      line-height: 5.2rem;
     }
 
     p {

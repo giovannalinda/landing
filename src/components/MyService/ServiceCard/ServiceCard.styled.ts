@@ -15,6 +15,11 @@ export const Container = styled.button`
   padding: ${theme.space[6]};
   transition: all ${theme.transitions.slow};
 
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    padding: ${theme.space[4]};
+    height: 25.1rem;
+  }
+
   svg {
     transition: all ${theme.transitions.slow};
   }
@@ -32,6 +37,10 @@ export const Container = styled.button`
       color: ${theme.colors.secondaryPink};
     }
   }
+
+  a {
+    color: ${theme.colors.secondaryPink};
+  }
 `
 
 export const TextGroup = styled.div`
@@ -42,6 +51,12 @@ export const TextGroup = styled.div`
   line-height: 4rem;
   max-width: 15rem;
   color: ${theme.colors.primaryDark};
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    font-size: ${theme.font.sizes.large};
+    max-width: 10rem;
+    line-height: 2rem;
+  }
 `
 
 export const Separator = styled.hr`

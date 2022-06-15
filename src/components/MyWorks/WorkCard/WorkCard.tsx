@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { ReactNode } from 'react'
 
 import { Button, useButtonAnimation } from '~/components'
@@ -7,9 +8,10 @@ import * as S from './WorkCard.styled'
 export type WorkCardProps = {
   children: ReactNode
   title: string
+  href: string
 }
 
-export function WorkCard({ children, title }: WorkCardProps) {
+export function WorkCard({ children, title, href }: WorkCardProps) {
   const { isButtonTextVisible, showButtonText, hiddenButtonText } =
     useButtonAnimation()
 
@@ -27,7 +29,9 @@ export function WorkCard({ children, title }: WorkCardProps) {
         <h3>{title}</h3>
 
         <Button.Animation visible={isButtonTextVisible}>
-          VIEW PROJECT
+          <Link href={href} target='_blank'>
+            VIEW PROJECT
+          </Link>
         </Button.Animation>
       </S.TextGroup>
     </S.Container>

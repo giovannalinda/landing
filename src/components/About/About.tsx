@@ -3,23 +3,23 @@ import Image from 'next/image'
 
 import { Assets } from '~/assets'
 
-import * as S from './About.styled'
 import Link from 'next/link'
+import * as S from './About.styled'
 
 export function About() {
   return (
     <S.Container id='about'>
-      {/* <Image src={Assets.About} layout='raw' width='592' height='574' /> */}
+      <S.AboutImageWrapper>
+        <Image src={Assets.About} layout='raw' width='592' height='574' />
+      </S.AboutImageWrapper>
       <S.Content>
-        <h1>
-          Software Engineer and Infrastructure specialist based in Brazil.
-        </h1>
+        <h1>Developing quality digital products through codes. ✨</h1>
         <p>
-          Morbi quam velit, euismod in imperdiet vitae, elementum et elit. Nunc
-          finibus, felis sit amet sollicitudin sollicitudin, nisi magna feugiat
-          enim, in maximus urna enim ac tortor. Nunc in volutpat ipsum, molestie
-          commodo odio. Quisque auctor nisi mi. Aenean venenatis sapien et
-          interdum interdum.
+          I&apos;m a front end developer with a sparkle in the eyes who&apos;s
+          always looking for the next level and who writes about technology to
+          contribute to the community. Some of my goals are to have continuous
+          growth, boost people through education and build good quality
+          interfaces.
         </p>
 
         <S.Carrer>

@@ -16,12 +16,24 @@ export const TestimonialGroup = styled.div`
   grid-gap: 4.4rem;
   margin-top: ${theme.space[8]};
   color: ${theme.colors.primaryDark};
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    grid-template-columns: 1fr;
+    grid-gap: ${theme.space[5]};
+  }
 `
 
 export const TestimonialList = styled.ul`
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   grid-gap: ${theme.space[0]};
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    display: flex;
+    overflow-x: scroll;
+    align-items: center;
+    grid-gap: ${theme.space[3]};
+  }
 `
 
 export const QuoteContainer = styled.div`
@@ -49,6 +61,13 @@ export const QuoteContainer = styled.div`
     line-height: 5.1rem;
     color: ${theme.colors.primaryDark};
   }
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    p {
+      font-size: ${theme.font.sizes.large};
+      line-height: ${theme.font.lineHeights.large};
+    }
+  }
 `
 
 export const QuoteImageWrapper = styled.div`
@@ -67,4 +86,8 @@ export const Indicator = styled.div<IndicatorProps>`
   transform: rotate(-45deg);
   transition: all ${theme.transitions.slow};
   border-radius: ${theme.borderRadius.sm} 0 0 0;
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    display: none;
+  }
 `

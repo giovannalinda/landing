@@ -10,8 +10,8 @@ export function ContactList() {
           <FiMapPin size={26} />
         </S.Icon>
         <small>
-          House #5, Street Number #98,
-          <br /> brasilia- 70000-000, Brazil.
+          Diadema,
+          <br /> São Paulo - SP, Brazil.
         </small>
       </li>
 
@@ -20,8 +20,8 @@ export function ContactList() {
           <FiMail size={26} />
         </S.Icon>
         <small>
-          albert.design@gmail.com <br />
-          albert.flores@gmail.com
+          eugiovannasouza@gmail.com <br />
+          oigiovannalinda@gmail.com
         </small>
       </li>
 

@@ -10,7 +10,7 @@ export function Footer() {
       <S.Separator />
       <Image src={Assets.Logo} width='263' height='59' />
       <small>
-        {'Made with 💜 by John and '}
+        {'Made with 💜 by Giovanna and '}
         <Link href='https://www.hypesoft.com.br/' passHref>
           <a target='_blank' rel='noreferrer'>
             Hypesoft

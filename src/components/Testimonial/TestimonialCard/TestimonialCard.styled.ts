@@ -20,6 +20,10 @@ export const TestimonialProfile = styled.div`
   width: 5.2rem;
   height: 5.2rem;
   background: ${theme.colors.gray500};
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    min-width: 5.2rem;
+  }
 `
 
 export const TestimonialClient = styled.div`
@@ -41,5 +45,12 @@ export const TestimonialClient = styled.div`
 
   span {
     color: ${theme.colors.secondaryPink};
+  }
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    h3,
+    small {
+      white-space: nowrap;
+    }
   }
 `
