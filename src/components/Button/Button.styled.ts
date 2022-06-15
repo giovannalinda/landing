@@ -81,6 +81,11 @@ export const Container = styled.button<ButtonProps>`
       place-items: center;
       border-radius: ${theme.borderRadius.rounded};
     `}
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    font-size: ${theme.font.sizes.small};
+    white-space: nowrap;
+  }
 `
 
 export const ButtonAnimationWrapper = styled.div<ButtonAnimationWrapperProps>`

@@ -9,6 +9,10 @@ export const Content = styled.main`
   max-width: ${theme.grid.lg};
   width: 100%;
   margin: 0 auto;
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    padding: ${theme.space[4]};
+  }
 `
 
 export const Background = styled.div`
@@ -23,5 +27,9 @@ export const Background = styled.div`
 
   @media screen and (min-width: 1920px) {
     min-width: 105.3rem;
+  }
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    display: none;
   }
 `

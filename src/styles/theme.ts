@@ -65,4 +65,9 @@ export const theme = {
     slow: '0.5s',
     fast: '0.2s',
   },
+  breakpoints: {
+    mobile: '425px',
+    desktop: '1440px',
+    largeDesktop: '1920px',
+  },
 }

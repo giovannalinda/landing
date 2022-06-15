@@ -6,12 +6,17 @@ export const Header = styled.header`
   width: 100%;
   margin: 0 auto;
   padding: ${theme.space[6]} 0;
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    background: ${theme.colors.secondaryPurple};
+    border-radius: 0 0 ${theme.borderRadius.lg} ${theme.borderRadius.lg};
+  }
 `
 
 export const Navigation = styled.nav`
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
   width: 100%;
 
   ul {
@@ -48,6 +53,14 @@ export const Navigation = styled.nav`
 
     & + li {
       margin-left: ${theme.space[7]};
+    }
+  }
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    justify-content: center;
+
+    li + li {
+      margin-left: ${theme.space[3]};
     }
   }
 `
