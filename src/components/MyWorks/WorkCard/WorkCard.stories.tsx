@@ -1,16 +1,21 @@
+/* eslint-disable @next/next/no-img-element */
 import { Meta, Story } from '@storybook/react'
-import Image from 'next/image'
+
 import { Assets } from '~/assets'
 
 import { WorkCard, WorkCardProps } from './WorkCard'
 
 export default {
-  title: 'WorkCard',
+  title: 'Components/MyWorks/WorkCard',
   component: WorkCard,
+  args: {
+    href: 'https://url.com.br',
+    title: 'Title',
+  },
 } as Meta
 
 export const Default: Story<WorkCardProps> = (args) => (
   <WorkCard {...args}>
-    <Image src={Assets.ImgWork1} width='424' height='332' />
+    <img src={Assets.ImgWork1} width='424' height='332' />
   </WorkCard>
 )
