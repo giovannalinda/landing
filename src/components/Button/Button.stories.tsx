@@ -1,4 +1,5 @@
 import { Meta, Story } from '@storybook/react'
+import { FiHeart } from 'react-icons/fi'
 import { Button, ButtonProps } from './Button'
 
 export default {
@@ -14,4 +15,10 @@ export default {
 
 export const Default: Story<ButtonProps> = (args) => (
   <Button {...args}>Example</Button>
+)
+
+export const Icon: Story<ButtonProps> = (args) => (
+  <Button {...args}>
+    <FiHeart size={20} />
+  </Button>
 )
