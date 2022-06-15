@@ -6,14 +6,18 @@ export const Container = styled.section`
   grid-template-columns: 1.3fr 1fr;
   padding-top: 12.7rem;
 
-  @media screen and (max-width: ${theme.breakpoints.mobile}) {
-    grid-template-columns: 1fr;
-  }
-
   h1 {
     padding-bottom: ${theme.space[5]};
     font-size: ${theme.font.sizes.subtitle};
     font-weight: ${theme.font.weigths.regular};
+  }
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    grid-template-columns: 1fr;
+
+    h1 {
+      text-align: center;
+    }
   }
 `
 

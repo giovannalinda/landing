@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { ReactNode } from 'react'
 
 import { Button, useButtonAnimation } from '~/components'
+import { useTranslation } from '~/lib/useTranslation'
 
 import * as S from './ServiceCard.styled'
 
@@ -11,6 +12,7 @@ export type ServiceCardProps = {
 }
 
 export function ServiceCard({ children, title }: ServiceCardProps) {
+  const { t } = useTranslation()
   const { isButtonTextVisible, showButtonText, hiddenButtonText } =
     useButtonAnimation()
 
@@ -28,7 +30,9 @@ export function ServiceCard({ children, title }: ServiceCardProps) {
         {title}
         <S.Separator />
         <Button.Animation visible={isButtonTextVisible}>
-          <Link href='mailto:eugiovannasouza@gmail.com'>Discuss now</Link>
+          <Link href='mailto:eugiovannasouza@gmail.com'>
+            {t('Discuss now')}
+          </Link>
         </Button.Animation>
       </S.TextGroup>
     </S.Container>

@@ -1,15 +1,18 @@
 import { FiCode, FiLayers, FiColumns, FiBox } from 'react-icons/fi'
 
 import { Title } from '~/components'
-
 import { ServiceCard } from './ServiceCard'
+
+import { useTranslation } from '~/lib/useTranslation'
 
 import * as S from './MyService.styled'
 
 export function MyService() {
+  const { t } = useTranslation()
+
   return (
     <S.Container id='services'>
-      <Title>My Service</Title>
+      <Title>{t('My Service')}</Title>
 
       <S.ServicesList>
         <li>

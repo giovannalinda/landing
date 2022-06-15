@@ -65,6 +65,7 @@ export const Container = styled.button<ButtonProps>`
   font-weight: ${theme.font.weigths.semiBold};
   letter-spacing: ${theme.font.letterSpacing.sm};
   transition: all ${theme.transitions.fast};
+  text-transform: uppercase;
 
   &:hover {
     transform: translateY(-0.5rem);

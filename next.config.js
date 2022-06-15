@@ -6,6 +6,10 @@ const nextConfig = {
       layoutRaw: true,
     },
   },
+  i18n: {
+    locales: ['en-US', 'pt-BR'],
+    defaultLocale: 'en-US',
+  },
 }
 
 module.exports = nextConfig

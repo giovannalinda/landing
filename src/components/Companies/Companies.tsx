@@ -4,6 +4,7 @@ import { CgArrowLongRight } from 'react-icons/cg'
 
 import * as S from './Companies.styled'
 import Link from 'next/link'
+import { useTranslation } from '~/lib/useTranslation'
 
 const companies = [
   {
@@ -29,10 +30,13 @@ const companies = [
 ]
 
 export function Companies() {
+  const { t } = useTranslation()
+
   return (
     <S.Container>
       <h1>
-        I worked with <span>289+</span> Companies all over the World.
+        {`${t('I worked with')} `}
+        <span>289+</span> {t('Companies all over the World.')}
       </h1>
 
       <S.CompaniesList>

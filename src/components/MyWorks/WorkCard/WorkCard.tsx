@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { ReactNode } from 'react'
 
 import { Button, useButtonAnimation } from '~/components'
+import { useTranslation } from '~/lib/useTranslation'
 
 import * as S from './WorkCard.styled'
 
@@ -12,6 +13,7 @@ export type WorkCardProps = {
 }
 
 export function WorkCard({ children, title, href }: WorkCardProps) {
+  const { t } = useTranslation()
   const { isButtonTextVisible, showButtonText, hiddenButtonText } =
     useButtonAnimation()
 
@@ -30,7 +32,7 @@ export function WorkCard({ children, title, href }: WorkCardProps) {
 
         <Button.Animation visible={isButtonTextVisible}>
           <Link href={href} target='_blank'>
-            VIEW PROJECT
+            {t('View Project')}
           </Link>
         </Button.Animation>
       </S.TextGroup>

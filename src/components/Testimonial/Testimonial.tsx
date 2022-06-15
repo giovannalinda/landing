@@ -9,6 +9,7 @@ import { useIndicator } from '~/lib/useIndicator'
 import { TestimonialCard } from './TestimonialCard'
 
 import * as S from './Testimonial.styled'
+import { useTranslation } from '~/lib/useTranslation'
 
 const people = [
   {
@@ -36,6 +37,7 @@ const people = [
 const VALUE_TO_CENTER = 35
 
 export function Testimonial() {
+  const { t } = useTranslation()
   const testimonialListRef = useRef(null)
 
   const { indicatorPosition, changeIndicatorPosition } = useIndicator(
@@ -45,7 +47,7 @@ export function Testimonial() {
 
   return (
     <S.Container>
-      <Title>Testimonial</Title>
+      <Title>{t('Testimonial')}</Title>
 
       <S.TestimonialGroup>
         <S.TestimonialList ref={testimonialListRef}>
@@ -63,17 +65,15 @@ export function Testimonial() {
         <S.QuoteContainer>
           <span>
             <BsFillStarFill size={24} />
-            5.0 Star Rating
+            5.0 {t('Star Rating')}
           </span>
           <S.QuoteImageWrapper>
             <Image src={Assets.Quote} width='95' height='75' />
           </S.QuoteImageWrapper>
           <p>
-            “If you&apos;re looking for someone who will challenge your UX/UI
-            thinking and really cut to the core of what&apos;s important for
-            users, then Jesse is your man. On top of that, he brings a level of
-            enthusiasm to the craft that&apos;s energizing for everyone who
-            works with him.”
+            {t(
+              "“If you're looking for someone who challenges your Front thinking and really gets to the heart of what's important to users, then Giovanna is for you. Plus, she brings a level of enthusiasm to the craft that is energizing for everyone who works with her.”",
+            )}
           </p>
 
           <S.Indicator top={indicatorPosition} />

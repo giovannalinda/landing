@@ -1,29 +1,33 @@
 import Link from 'next/link'
+import { useTranslation } from '~/lib/useTranslation'
+
 import * as S from './Header.styled'
 
 export function Header() {
+  const { t } = useTranslation()
+
   return (
     <S.Header>
       <S.Navigation>
         <ul>
           <li>
             <Link href='#about' scroll>
-              ABOUT
+              {t('About').toUpperCase()}
             </Link>
           </li>
           <li>
             <Link href='#services' scroll>
-              SERVICES
+              {t('Services').toUpperCase()}
             </Link>
           </li>
           <li>
             <Link href='#works' scroll>
-              WORKS
+              {t('Works').toUpperCase()}
             </Link>
           </li>
           <li>
             <Link href='#contact' scroll>
-              CONTACT
+              {t('Contact').toUpperCase()}
             </Link>
           </li>
         </ul>

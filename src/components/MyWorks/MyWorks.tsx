@@ -6,11 +6,14 @@ import { Title } from '~/components'
 import { WorkCard } from './WorkCard'
 
 import * as S from './MyWorks.styled'
+import { useTranslation } from '~/lib/useTranslation'
 
 export function MyWorks() {
+  const { t } = useTranslation()
+
   return (
     <S.Container id='works'>
-      <Title>My Selected Work</Title>
+      <Title>{t('My Selected Work')}</Title>
 
       <S.WorksList>
         <li>

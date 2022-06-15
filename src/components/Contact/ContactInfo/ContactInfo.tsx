@@ -3,15 +3,18 @@ import Link from 'next/link'
 import { ImDribbble, ImGithub, ImLinkedin2 } from 'react-icons/im'
 import { BsInstagram, BsMedium } from 'react-icons/bs'
 
+import { useTranslation } from '~/lib/useTranslation'
 import { Button } from '~/components'
 import { ContactList } from './ContactList'
 
 import * as S from './ContactInfo.styled'
 
 export function ContactInfo() {
+  const { t } = useTranslation()
+
   return (
     <>
-      <h1 style={{ textAlign: 'center' }}>Get In Touch</h1>
+      <h1>{t('Get In Touch')}</h1>
 
       <ContactList />
 

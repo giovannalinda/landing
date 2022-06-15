@@ -1,3 +1,5 @@
+import { useTranslation } from '~/lib/useTranslation'
+
 import * as S from './TestimonialCard.styled'
 
 export type TestimonialCardProps = {
@@ -11,6 +13,8 @@ export function TestimonialCard({
   office,
   company,
 }: TestimonialCardProps) {
+  const { t } = useTranslation()
+
   return (
     <S.Container>
       <S.TestimonialProfile />
@@ -18,7 +22,7 @@ export function TestimonialCard({
       <S.TestimonialClient>
         <h3>{name}</h3>
         <small aria-label={`${office} of ${company}`}>
-          {office} of <span>{company}</span>
+          {office} {t('of')} <span>{company}</span>
         </small>
       </S.TestimonialClient>
     </S.Container>
