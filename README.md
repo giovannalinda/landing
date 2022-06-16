@@ -22,6 +22,15 @@
 - Responsive
 
 ## Getting Started
+
+### Run with Docker Compose:
+
+```bash
+docker-compose up --build
+```
+
+or
+
 ### Install dependencies:
 
 ```bash
@@ -96,5 +105,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `build`: creates the production build version
 - `lint`: runs the linter in all components and pages
 - `test`: runs jest to test all components and pages
+- `storybook`: runs docs with storybook
 
 <p align="center">Made with 💜 by Giovanna</p>
