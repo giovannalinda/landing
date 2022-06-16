@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { ImGithub, ImLinkedin2 } from 'react-icons/im'
 import { BsMedium, BsInstagram } from 'react-icons/bs'
 
+import { motion } from 'framer-motion'
 import { useTranslation } from '~/lib/useTranslation'
 import { Button } from '~/components'
 
@@ -16,7 +17,9 @@ export function Apresentation() {
         <h1>
           {t('Hello, I’m Gio,')}
           <br />
-          <span>Front End Developer.</span>
+          <motion.div animate={{ scale: [1, 1.2, 1] }}>
+            <span>Front End Developer.</span>
+          </motion.div>
         </h1>
         <p>
           {t(
@@ -37,47 +40,49 @@ export function Apresentation() {
 
       <S.SocialNetworks>
         <small>{t('Follow me on')}</small>
-        <S.SocialNetworksGroup>
-          <Button
-            as='a'
-            size='sm'
-            variant='white'
-            target='_blank'
-            rel='noreferrer'
-            href='https://github.com/giovannalinda'
-          >
-            <ImGithub size={20} />
-          </Button>
-          <Button
-            as='a'
-            size='sm'
-            target='_blank'
-            rel='noreferrer'
-            href='https://www.linkedin.com/in/giovannalinda'
-          >
-            <ImLinkedin2 size={20} />
-          </Button>
-          <Button
-            as='a'
-            size='sm'
-            variant='white'
-            target='_blank'
-            rel='noreferrer'
-            href='https://www.instagram.com/_gripada'
-          >
-            <BsInstagram size={20} />
-          </Button>
-          <Button
-            as='a'
-            size='sm'
-            variant='white'
-            target='_blank'
-            rel='noreferrer'
-            href='https://medium.com/@eugiovannasouza'
-          >
-            <BsMedium size={20} />
-          </Button>
-        </S.SocialNetworksGroup>
+        <motion.div animate={{ scale: [1, 1.1, 1] }}>
+          <S.SocialNetworksGroup>
+            <Button
+              as='a'
+              size='sm'
+              variant='white'
+              target='_blank'
+              rel='noreferrer'
+              href='https://github.com/giovannalinda'
+            >
+              <ImGithub size={20} />
+            </Button>
+            <Button
+              as='a'
+              size='sm'
+              target='_blank'
+              rel='noreferrer'
+              href='https://www.linkedin.com/in/giovannalinda'
+            >
+              <ImLinkedin2 size={20} />
+            </Button>
+            <Button
+              as='a'
+              size='sm'
+              variant='white'
+              target='_blank'
+              rel='noreferrer'
+              href='https://www.instagram.com/_gripada'
+            >
+              <BsInstagram size={20} />
+            </Button>
+            <Button
+              as='a'
+              size='sm'
+              variant='white'
+              target='_blank'
+              rel='noreferrer'
+              href='https://medium.com/@eugiovannasouza'
+            >
+              <BsMedium size={20} />
+            </Button>
+          </S.SocialNetworksGroup>
+        </motion.div>
       </S.SocialNetworks>
     </S.Container>
   )

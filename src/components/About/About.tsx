@@ -1,5 +1,6 @@
 import { CgArrowLongRight } from 'react-icons/cg'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 import Link from 'next/link'
 
 import { Assets } from '~/assets'
@@ -25,11 +26,15 @@ export function About() {
 
         <S.Carrer>
           <S.CarrerItem>
-            <h3>1+</h3>
+            <motion.div animate={{ scale: [1, 1.3, 1.3, 1] }}>
+              <h3>1+</h3>
+            </motion.div>
             <span>{t('Years of Experience')}</span>
           </S.CarrerItem>
           <S.CarrerItem>
-            <h3>28+</h3>
+            <motion.div animate={{ scale: [1, 1.3, 1.3, 1] }}>
+              <h3>28+</h3>
+            </motion.div>
             <span>{t('Completed Projects')}</span>
           </S.CarrerItem>
         </S.Carrer>
