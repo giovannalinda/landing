@@ -38,7 +38,7 @@ export const InfoContainer = styled.div`
 
   @media screen and (max-width: ${theme.breakpoints.mobile}) {
     margin: ${theme.space[2]} 0 0 0;
-    padding: ${theme.space[5]};
+    padding: 2rem 0 2rem 0;
   }
 `
 
@@ -47,7 +47,7 @@ export const DotImageWrapper = styled.div`
   right: -8rem;
   top: -3rem;
 
-  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+  @media screen and (max-width: ${theme.breakpoints.smallDesktop}) {
     display: none;
   }
 `

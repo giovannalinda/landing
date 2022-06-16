@@ -10,13 +10,14 @@ export const Container = styled.section`
   align-items: center;
   padding-top: 13.2rem;
 
-  @media screen and (max-width: ${theme.breakpoints.mobile}) {
-    grid-template-columns: 1fr;
+  @media screen and (max-width: ${theme.breakpoints.smallDesktop}) {
+    justify-content: center;
+    display: flex;
   }
 `
 
 export const AboutImageWrapper = styled.div`
-  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+  @media screen and (max-width: ${theme.breakpoints.smallDesktop}) {
     display: none;
   }
 `

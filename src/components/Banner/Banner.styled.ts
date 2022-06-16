@@ -29,6 +29,13 @@ export const TextGroup = styled.div`
       color: ${theme.colors.secondaryPink};
     }
   }
+
+  @media screen and (max-width: ${theme.breakpoints.smallMobile}) {
+    p {
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+  }
 `
 
 export const HireMeButton = styled(Button)`

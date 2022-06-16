@@ -29,7 +29,7 @@ export const Background = styled.div`
     min-width: 105.3rem;
   }
 
-  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+  @media screen and (max-width: ${theme.breakpoints.smallDesktop}) {
     display: none;
   }
 `

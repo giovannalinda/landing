@@ -6,7 +6,7 @@ export const Container = styled.section`
   justify-content: space-between;
   padding-top: 18rem;
 
-  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+  @media screen and (max-width: 768px) {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,6 +15,11 @@ export const Container = styled.section`
 
     h1 {
       padding-bottom: ${theme.space[8]};
+      span {
+        &::before {
+          display: none;
+        }
+      }
     }
 
     ul {

@@ -11,8 +11,6 @@ export const Header = styled.header`
 
   @media screen and (max-width: ${theme.breakpoints.mobile}) {
     align-items: center;
-    padding: ${theme.space[6]} ${theme.space[4]};
-    background: ${theme.colors.secondaryPurple};
     border-radius: 0 0 ${theme.borderRadius.lg} ${theme.borderRadius.lg};
   }
 `
@@ -65,6 +63,12 @@ export const Navigation = styled.nav`
 
     li + li {
       margin-left: ${theme.space[3]};
+    }
+  }
+
+  @media screen and (max-width: ${theme.breakpoints.smallMobile}) {
+    li {
+      font-size: ${theme.font.sizes.disclaimer};
     }
   }
 `

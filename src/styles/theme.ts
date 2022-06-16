@@ -67,7 +67,9 @@ export const theme = {
     fast: '0.2s',
   },
   breakpoints: {
+    smallMobile: '320px',
     mobile: '425px',
+    smallDesktop: '1024px',
     desktop: '1440px',
     largeDesktop: '1920px',
   },

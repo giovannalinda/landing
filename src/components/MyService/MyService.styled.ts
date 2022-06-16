@@ -12,7 +12,7 @@ export const ServicesList = styled.ul`
   grid-gap: ${theme.space[5]};
   margin-top: 7rem;
 
-  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+  @media screen and (max-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
   }
 `

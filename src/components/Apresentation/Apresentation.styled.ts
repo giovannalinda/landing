@@ -9,7 +9,7 @@ export const Container = styled.section`
   padding-bottom: ${theme.space[8]};
   margin-top: 13rem;
 
-  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+  @media screen and (max-width: ${theme.breakpoints.smallDesktop}) {
     margin-top: 8rem;
     padding-bottom: ${theme.space[4]};
   }
@@ -36,7 +36,7 @@ export const TextGroup = styled.div`
     }
   }
 
-  span {
+  > span {
     color: ${theme.colors.secondaryPurple};
   }
 
@@ -94,6 +94,10 @@ export const SocialNetworks = styled.div`
   @media screen and (max-width: ${theme.breakpoints.mobile}) {
     margin: 0 auto;
     align-items: center;
+  }
+
+  @media screen and (max-width: ${theme.breakpoints.smallDesktop}) {
+    margin-top: 4rem;
   }
 `
 

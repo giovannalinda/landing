@@ -30,6 +30,10 @@ export const FormGroup = styled.div`
   display: grid;
   grid-gap: ${theme.space[4]};
   grid-template-columns: 1fr 1fr;
+
+  @media screen and (max-width: ${theme.breakpoints.smallMobile}) {
+    grid-template-columns: 1fr;
+  }
 `
 
 export const Input = styled.input`
