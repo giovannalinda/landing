@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactForm should match snapshot 1`] = `
+<form
+  class="sc-gsnTZi RTKRb"
+>
+  <div
+    class="sc-dkzDqf exXMmW"
+  >
+    <input
+      class="sc-hKMtZM fdjumT"
+      placeholder="Full name"
+      type="text"
+    />
+    <input
+      class="sc-hKMtZM fdjumT"
+      placeholder="Email adress"
+      type="email"
+    />
+  </div>
+  <input
+    class="sc-hKMtZM fdjumT"
+    placeholder="Subjects"
+    type="text"
+  />
+  <textarea
+    class="sc-eCYdqJ kBHjtk"
+    placeholder="Message"
+    rows="7"
+  />
+  <button
+    class="sc-bczRLJ sc-jSMfEi fhxDpE kzIlqT"
+    type="submit"
+  >
+    Send message
+     
+    <svg
+      fill="none"
+      height="20"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      viewBox="0 0 24 24"
+      width="20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <line
+        x1="22"
+        x2="11"
+        y1="2"
+        y2="13"
+      />
+      <polygon
+        points="22 2 15 22 11 13 2 9 22 2"
+      />
+    </svg>
+  </button>
+</form>
+`;

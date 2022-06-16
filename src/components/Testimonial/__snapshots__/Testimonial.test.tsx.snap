@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testimonial should match snapshot 1`] = `
+<section
+  class="sc-cOFTSb dlkHyc"
+>
+  <h1
+    class="sc-fnykZs GoPja"
+  >
+    Testimonial
+  </h1>
+  <hr
+    class="sc-fEOsli fxMEFr"
+  />
+  <div
+    class="sc-BeQoi crWLYr"
+  >
+    <ul
+      class="sc-kgUAyh lkmNGP"
+    >
+      <li>
+        <button
+          class="sc-jOrMOR eiVaFa"
+        >
+          <div
+            class="sc-dPyBCJ gMaYRe"
+          />
+          <div
+            class="sc-bBXxYQ dUCxMf"
+          >
+            <h3>
+              Sundar Pichai
+            </h3>
+            <small
+              aria-label="CEO e Founder of Google"
+            >
+              CEO e Founder
+               
+              of
+               
+              <span>
+                Google
+              </span>
+            </small>
+          </div>
+        </button>
+      </li>
+      <li>
+        <button
+          class="sc-jOrMOR eiVaFa"
+        >
+          <div
+            class="sc-dPyBCJ gMaYRe"
+          />
+          <div
+            class="sc-bBXxYQ dUCxMf"
+          >
+            <h3>
+              Shantanu Narayen
+            </h3>
+            <small
+              aria-label="CEO of Adobe"
+            >
+              CEO
+               
+              of
+               
+              <span>
+                Adobe
+              </span>
+            </small>
+          </div>
+        </button>
+      </li>
+      <li>
+        <button
+          class="sc-jOrMOR eiVaFa"
+        >
+          <div
+            class="sc-dPyBCJ gMaYRe"
+          />
+          <div
+            class="sc-bBXxYQ dUCxMf"
+          >
+            <h3>
+              Noah Levin
+            </h3>
+            <small
+              aria-label="Director of Design of Figma"
+            >
+              Director of Design
+               
+              of
+               
+              <span>
+                Figma
+              </span>
+            </small>
+          </div>
+        </button>
+      </li>
+      <li>
+        <button
+          class="sc-jOrMOR eiVaFa"
+        >
+          <div
+            class="sc-dPyBCJ gMaYRe"
+          />
+          <div
+            class="sc-bBXxYQ dUCxMf"
+          >
+            <h3>
+              Stewart Butterfield
+            </h3>
+            <small
+              aria-label="CEO e Founder of Slack"
+            >
+              CEO e Founder
+               
+              of
+               
+              <span>
+                Slack
+              </span>
+            </small>
+          </div>
+        </button>
+      </li>
+    </ul>
+    <div
+      class="sc-hTtwUo dkGxTb"
+    >
+      <span>
+        <svg
+          fill="currentColor"
+          height="24"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 16 16"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+          />
+        </svg>
+        5.0 
+        Star Rating
+      </span>
+      <div
+        class="sc-jgbSNz cgEsNN"
+      >
+        <img
+          height="75"
+          src="/quote.svg"
+          width="95"
+        />
+      </div>
+      <p>
+        “If you're looking for someone who challenges your Front thinking and really gets to the heart of what's important to users, then Giovanna is for you. Plus, she brings a level of enthusiasm to the craft that is energizing for everyone who works with her.”
+      </p>
+      <div
+        class="sc-gSAPjG dTshrE"
+      />
+    </div>
+  </div>
+</section>
+`;

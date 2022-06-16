@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should match snapshot 1`] = `
+<footer
+  class="sc-bczRLJ fsmWSS"
+>
+  <hr
+    class="sc-gsnTZi ixoeZt"
+  />
+  <img
+    height="59"
+    src="/logo.svg"
+    width="263"
+  />
+  <small>
+    Made with
+     💜 
+    by Giovanna and 
+    <a
+      href="https://www.hypesoft.com.br/"
+      rel="noreferrer"
+      target="_blank"
+    >
+      Hypesoft
+    </a>
+  </small>
+</footer>
+`;

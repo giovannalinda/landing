@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match snapshot 1`] = `
+<header
+  class="sc-bczRLJ ksbZmO"
+>
+  <nav
+    class="sc-gsnTZi eDILmX"
+  >
+    <ul>
+      <li>
+        <a
+          href="#about"
+        >
+          ABOUT
+        </a>
+      </li>
+      <li>
+        <a
+          href="#services"
+        >
+          SERVICES
+        </a>
+      </li>
+      <li>
+        <a
+          href="#works"
+        >
+          WORKS
+        </a>
+      </li>
+      <li>
+        <a
+          href="#contact"
+        >
+          CONTACT
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;

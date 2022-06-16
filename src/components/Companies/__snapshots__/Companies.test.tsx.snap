@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Companies should match snapshot 1`] = `
+<section
+  class="sc-bczRLJ kVzqFo"
+>
+  <h1>
+    I worked with 
+    <span>
+      289+
+    </span>
+     
+    Companies all over the World.
+  </h1>
+  <ul
+    class="sc-gsnTZi gmoSjh"
+  >
+    <li
+      aria-label="YouTube"
+    >
+      <a
+        class="sc-dkzDqf emVUNr"
+        href="https://youtube.com"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <img
+          height="26"
+          src="/youtubelogo.svg"
+          width="113"
+        />
+      </a>
+    </li>
+    <li
+      aria-label="Google"
+    >
+      <a
+        class="sc-dkzDqf emVUNr"
+        href="https://google.com"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <img
+          height="26"
+          src="/googlelogo.svg"
+          width="113"
+        />
+      </a>
+    </li>
+    <li
+      aria-label="Adobe"
+    >
+      <a
+        class="sc-dkzDqf emVUNr"
+        href="https://adobe.com"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <img
+          height="26"
+          src="/adobelogo.svg"
+          width="113"
+        />
+      </a>
+    </li>
+    <li
+      aria-label="Sketch"
+    >
+      <a
+        class="sc-dkzDqf emVUNr"
+        href="https://sketch.com"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <img
+          height="26"
+          src="/sketchlogo.svg"
+          width="113"
+        />
+      </a>
+    </li>
+    <li
+      class="sc-dkzDqf emVUNr"
+    >
+      <svg
+        fill="none"
+        height="30"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="30"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z"
+          fill="currentColor"
+        />
+      </svg>
+    </li>
+  </ul>
+</section>
+`;
