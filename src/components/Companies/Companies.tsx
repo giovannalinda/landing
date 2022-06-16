@@ -51,9 +51,9 @@ export function Companies() {
             <span>289+</span> {t('Companies all over the World.')}
           </h1>
 
-          <S.CompaniesList>
-            {inView &&
-              companies.map((company, index) => (
+          {inView && (
+            <S.CompaniesList>
+              {companies.map((company, index) => (
                 <li key={company.name} aria-label={company.name}>
                   <S.CompanyCard
                     target='_blank'
@@ -72,23 +72,24 @@ export function Companies() {
                 </li>
               ))}
 
-            <li>
-              <S.CompanyCard
-                href='https://www.linkedin.com/in/giovannalinda'
-                target='_blank'
-                rel='noreferrer'
-                initial='hidden'
-                animate='visible'
-                variants={cardVariant}
-                transition={{
-                  duration: 0.5,
-                  delay: 1,
-                }}
-              >
-                <CgArrowLongRight size={30} />
-              </S.CompanyCard>
-            </li>
-          </S.CompaniesList>
+              <li>
+                <S.CompanyCard
+                  href='https://www.linkedin.com/in/giovannalinda'
+                  target='_blank'
+                  rel='noreferrer'
+                  initial='hidden'
+                  animate='visible'
+                  variants={cardVariant}
+                  transition={{
+                    duration: 0.5,
+                    delay: 1,
+                  }}
+                >
+                  <CgArrowLongRight size={30} />
+                </S.CompanyCard>
+              </li>
+            </S.CompaniesList>
+          )}
         </S.Container>
       )}
     </InView>
