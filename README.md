@@ -60,14 +60,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
     ├── styles
 ```
 
-| Folder      | Description                                          |
-| ----------  | -------------------------------------------          |
-| **helpers**  | functions to handle the tests|
-| **assets** | Export images                                         |
-| **components**   | Page components                                      |
-| **libs**| Utilities.                                      |
-| **pages**   | Pages components         |
-| **styles**      | application styles                     |
+| Folder         | Description                                          |
+| ----------     | -------------------------------------------          |
+| **helpers**    | Functions to handle the tests                        |
+| **assets**     | Export images                                        |
+| **components** | Page components                                      |
+| **libs**       | Utilities                                            |
+| **pages**      | Pages components                                     |
+| **styles**     | Application styles                                   |
 
 ## Conventions
 
@@ -87,8 +87,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 | **.tsx**        | Component implementation                       |
 | **.test.tsx**   | Component tests                                |
 | **.styled.ts**  | Component stylesheet using `styled-components` |
-| **.stories.tsx**  | storybook component |
+| **.stories.tsx**| Storybook component                            |
 | **index.ts**    | File to export the component                   |
+
 ## Commands
 
 - `dev`: run development server
@@ -96,4 +97,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `lint`: runs the linter in all components and pages
 - `test`: runs jest to test all components and pages
 
-<p align="center">Made with 🖤 by Giovanna</p>
+<p align="center">Made with 💜 by Giovanna</p>
