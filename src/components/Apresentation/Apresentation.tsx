@@ -1,12 +1,19 @@
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 import { ImGithub, ImLinkedin2 } from 'react-icons/im'
 import { BsMedium, BsInstagram } from 'react-icons/bs'
 
-import { motion } from 'framer-motion'
 import { useTranslation } from '~/lib/useTranslation'
 import { Button } from '~/components'
 
 import * as S from './Apresentation.styled'
+
+const TEXT_STATIC_OFFICE = 'Front End Developer.'
+
+const letterVariant = {
+  hidden: { opacity: 0 },
+  visible: { opacity: 1 },
+}
 
 export function Apresentation() {
   const { t } = useTranslation()
@@ -15,11 +22,39 @@ export function Apresentation() {
     <S.Container>
       <S.TextGroup>
         <h1>
-          {t('Hello, I’m Gio,')}
+          {t('Hello, I’m Gio,')
+            .split('')
+            .map((char, index) => (
+              <motion.span
+                key={`${char}-${index}`}
+                variants={letterVariant}
+                transition={{
+                  delay: index / t('Hello, I’m Gio,').length,
+                  duration: 0.2,
+                }}
+                initial='hidden'
+                animate='visible'
+              >
+                {char}
+              </motion.span>
+            ))}
           <br />
-          <motion.div animate={{ scale: [1, 1.2, 1] }}>
-            <span>Front End Developer.</span>
-          </motion.div>
+
+          {TEXT_STATIC_OFFICE.split('').map((char, index) => (
+            <motion.span
+              className='purple'
+              key={`${char}-${index}`}
+              variants={letterVariant}
+              transition={{
+                delay: index / TEXT_STATIC_OFFICE.length,
+                duration: 0.2,
+              }}
+              initial='hidden'
+              animate='visible'
+            >
+              {char}
+            </motion.span>
+          ))}
         </h1>
         <p>
           {t(
@@ -40,49 +75,55 @@ export function Apresentation() {
 
       <S.SocialNetworks>
         <small>{t('Follow me on')}</small>
-        <motion.div animate={{ scale: [1, 1.1, 1] }}>
-          <S.SocialNetworksGroup>
-            <Button
-              as='a'
-              size='sm'
-              variant='white'
-              target='_blank'
-              rel='noreferrer'
-              href='https://github.com/giovannalinda'
-            >
-              <ImGithub size={20} />
-            </Button>
-            <Button
-              as='a'
-              size='sm'
-              target='_blank'
-              rel='noreferrer'
-              href='https://www.linkedin.com/in/giovannalinda'
-            >
-              <ImLinkedin2 size={20} />
-            </Button>
-            <Button
-              as='a'
-              size='sm'
-              variant='white'
-              target='_blank'
-              rel='noreferrer'
-              href='https://www.instagram.com/_gripada'
-            >
-              <BsInstagram size={20} />
-            </Button>
-            <Button
-              as='a'
-              size='sm'
-              variant='white'
-              target='_blank'
-              rel='noreferrer'
-              href='https://medium.com/@eugiovannasouza'
-            >
-              <BsMedium size={20} />
-            </Button>
-          </S.SocialNetworksGroup>
-        </motion.div>
+
+        <S.SocialNetworksGroup
+          initial='hidden'
+          animate='visible'
+          variants={{
+            hidden: { opacity: 0 },
+            visible: { opacity: 1 },
+          }}
+        >
+          <Button
+            as='a'
+            size='sm'
+            variant='white'
+            target='_blank'
+            rel='noreferrer'
+            href='https://github.com/giovannalinda'
+          >
+            <ImGithub size={20} />
+          </Button>
+          <Button
+            as='a'
+            size='sm'
+            target='_blank'
+            rel='noreferrer'
+            href='https://www.linkedin.com/in/giovannalinda'
+          >
+            <ImLinkedin2 size={20} />
+          </Button>
+          <Button
+            as='a'
+            size='sm'
+            variant='white'
+            target='_blank'
+            rel='noreferrer'
+            href='https://www.instagram.com/_gripada'
+          >
+            <BsInstagram size={20} />
+          </Button>
+          <Button
+            as='a'
+            size='sm'
+            variant='white'
+            target='_blank'
+            rel='noreferrer'
+            href='https://medium.com/@eugiovannasouza'
+          >
+            <BsMedium size={20} />
+          </Button>
+        </S.SocialNetworksGroup>
       </S.SocialNetworks>
     </S.Container>
   )

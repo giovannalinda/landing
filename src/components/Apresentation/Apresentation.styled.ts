@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import styled from 'styled-components'
 import { theme } from '~/styles'
 
@@ -36,7 +37,7 @@ export const TextGroup = styled.div`
     }
   }
 
-  > span {
+  .purple {
     color: ${theme.colors.secondaryPurple};
   }
 
@@ -101,7 +102,7 @@ export const SocialNetworks = styled.div`
   }
 `
 
-export const SocialNetworksGroup = styled.div`
+export const SocialNetworksGroup = styled(motion.div)`
   display: grid;
   grid-gap: ${theme.space[2]};
   grid-template-columns: repeat(4, 1fr);
