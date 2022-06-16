@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import styled from 'styled-components'
 import { theme } from '~/styles'
 
@@ -16,13 +17,13 @@ export const Container = styled.section`
   }
 `
 
-export const AboutImageWrapper = styled.div`
+export const AboutImageWrapper = styled(motion.div)`
   @media screen and (max-width: ${theme.breakpoints.smallDesktop}) {
     display: none;
   }
 `
 
-export const Content = styled.div`
+export const Content = styled(motion.div)`
   display: flex;
   text-align: left;
   flex-direction: column;
