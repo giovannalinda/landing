@@ -1,4 +1,5 @@
 import { FiCode, FiLayers, FiColumns, FiBox } from 'react-icons/fi'
+import { useInView } from 'react-intersection-observer'
 
 import { Title } from '~/components'
 import { ServiceCard } from './ServiceCard'
@@ -6,12 +7,11 @@ import { ServiceCard } from './ServiceCard'
 import { useTranslation } from '~/lib/useTranslation'
 
 import * as S from './MyService.styled'
-import { useInView } from 'react-intersection-observer'
 
 export function MyService() {
   const { t } = useTranslation()
 
-  const { ref, inView } = useInView()
+  const { ref, inView } = useInView({ triggerOnce: true })
 
   return (
     <S.Container id='services' ref={ref}>
