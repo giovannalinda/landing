@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import styled from 'styled-components'
 import { theme } from '~/styles'
 
@@ -58,7 +59,7 @@ export const CompaniesList = styled.ul`
   margin-left: 7.2rem;
 `
 
-export const CompanyCard = styled.a`
+export const CompanyCard = styled(motion.a)`
   display: flex;
   justify-content: center;
   align-items: center;

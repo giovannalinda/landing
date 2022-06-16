@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import styled from 'styled-components'
 
 import { theme } from '~/styles'
@@ -8,7 +9,7 @@ export const Title = styled.h1`
   text-align: center;
 `
 
-export const Separator = styled.hr`
+export const Separator = styled(motion.hr)`
   border-color: ${theme.colors.secondaryPink};
   border-radius: ${theme.borderRadius.md};
   width: 6.4rem;

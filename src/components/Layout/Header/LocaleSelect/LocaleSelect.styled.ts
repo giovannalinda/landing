@@ -72,4 +72,8 @@ export const SelectList = styled(motion.ul)`
     font-weight: ${theme.font.weigths.medium};
     font-size: ${theme.font.sizes.paragraph};
   }
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    padding: 0;
+  }
 `

@@ -2,44 +2,44 @@
 
 exports[`Contact should match snapshot 1`] = `
 <section
-  class="sc-kgUAyh eYVvfQ"
+  class="sc-lbxAil fpSgpz"
   id="contact"
 >
   <div
-    class="sc-hTtwUo kQTmMn"
+    class="sc-iNWwEs cCfvib"
   >
     <h1>
       Let me know here.
     </h1>
     <form
-      class="sc-jOrMOR dyzBkV"
+      class="sc-BeQoi kTGxUi"
     >
       <div
-        class="sc-dPyBCJ hlYoLC"
+        class="sc-kgUAyh hzqJtn"
       >
         <input
-          class="sc-bBXxYQ ChFDK"
+          class="sc-hTtwUo htoEpP"
           placeholder="Full name"
           type="text"
         />
         <input
-          class="sc-bBXxYQ ChFDK"
+          class="sc-hTtwUo htoEpP"
           placeholder="Email adress"
           type="email"
         />
       </div>
       <input
-        class="sc-bBXxYQ ChFDK"
+        class="sc-hTtwUo htoEpP"
         placeholder="Subjects"
         type="text"
       />
       <textarea
-        class="sc-cOFTSb bcWpvL"
+        class="sc-jgbSNz gAWrAM"
         placeholder="Message"
         rows="7"
       />
       <button
-        class="sc-gsnTZi sc-BeQoi fBRaJm uFHTF"
+        class="sc-gsnTZi sc-gSAPjG fBRaJm cLGrBF"
         type="submit"
       >
         Send message
@@ -69,10 +69,10 @@ exports[`Contact should match snapshot 1`] = `
     </form>
   </div>
   <div
-    class="sc-jgbSNz gMKhmQ"
+    class="sc-jfmDQi eUXFIh"
   >
     <div
-      class="sc-gSAPjG jFCfRO"
+      class="sc-eKszNL ibQwYf"
     >
       <img
         height="68"
@@ -84,11 +84,11 @@ exports[`Contact should match snapshot 1`] = `
       Get In Touch
     </h1>
     <ul
-      class="sc-iAvgwm ueAml"
+      class="sc-dPyBCJ hTXSYw"
     >
       <li>
         <div
-          class="sc-efBctP gBpybl"
+          class="sc-bBXxYQ gIGkSL"
         >
           <svg
             fill="none"
@@ -119,7 +119,7 @@ exports[`Contact should match snapshot 1`] = `
       </li>
       <li>
         <div
-          class="sc-efBctP gBpybl"
+          class="sc-bBXxYQ gIGkSL"
         >
           <svg
             fill="none"
@@ -148,7 +148,7 @@ exports[`Contact should match snapshot 1`] = `
       </li>
       <li>
         <div
-          class="sc-efBctP gBpybl"
+          class="sc-bBXxYQ gIGkSL"
         >
           <svg
             fill="none"
@@ -174,7 +174,7 @@ exports[`Contact should match snapshot 1`] = `
       </li>
     </ul>
     <div
-      class="sc-cTQhss jBWkJd"
+      class="sc-cOFTSb ezYnA"
     >
       <a
         href="https://dribbble.com/giovannalinda"

@@ -28,11 +28,11 @@ export const Icon = styled.div`
   align-items: center;
   justify-content: center;
 
-  @media screen and (max-width: ${theme.breakpoints.smallMobile}) {
-    display: none;
-  }
-
   svg {
     color: ${theme.colors.secondaryPink};
+  }
+
+  @media screen and (max-width: ${theme.breakpoints.mobile}) {
+    display: none;
   }
 `

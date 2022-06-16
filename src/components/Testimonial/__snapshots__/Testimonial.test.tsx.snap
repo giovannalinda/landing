@@ -2,31 +2,28 @@
 
 exports[`Testimonial should match snapshot 1`] = `
 <section
-  class="sc-cOFTSb dlkHyc"
+  class="sc-jgbSNz ctEwvX"
 >
   <h1
     class="sc-fnykZs GoPja"
   >
     Testimonial
   </h1>
-  <hr
-    class="sc-fEOsli fxMEFr"
-  />
   <div
-    class="sc-BeQoi crWLYr"
+    class="sc-gSAPjG jzvQGr"
   >
     <ul
-      class="sc-kgUAyh lkmNGP"
+      class="sc-lbxAil xsSlg"
     >
       <li>
         <button
-          class="sc-jOrMOR eiVaFa"
+          class="sc-BeQoi lcoZal"
         >
           <div
-            class="sc-dPyBCJ gMaYRe"
+            class="sc-kgUAyh dcCGZt"
           />
           <div
-            class="sc-bBXxYQ dUCxMf"
+            class="sc-hTtwUo gkmhVK"
           >
             <h3>
               Sundar Pichai
@@ -47,13 +44,13 @@ exports[`Testimonial should match snapshot 1`] = `
       </li>
       <li>
         <button
-          class="sc-jOrMOR eiVaFa"
+          class="sc-BeQoi lcoZal"
         >
           <div
-            class="sc-dPyBCJ gMaYRe"
+            class="sc-kgUAyh dcCGZt"
           />
           <div
-            class="sc-bBXxYQ dUCxMf"
+            class="sc-hTtwUo gkmhVK"
           >
             <h3>
               Shantanu Narayen
@@ -74,13 +71,13 @@ exports[`Testimonial should match snapshot 1`] = `
       </li>
       <li>
         <button
-          class="sc-jOrMOR eiVaFa"
+          class="sc-BeQoi lcoZal"
         >
           <div
-            class="sc-dPyBCJ gMaYRe"
+            class="sc-kgUAyh dcCGZt"
           />
           <div
-            class="sc-bBXxYQ dUCxMf"
+            class="sc-hTtwUo gkmhVK"
           >
             <h3>
               Noah Levin
@@ -101,13 +98,13 @@ exports[`Testimonial should match snapshot 1`] = `
       </li>
       <li>
         <button
-          class="sc-jOrMOR eiVaFa"
+          class="sc-BeQoi lcoZal"
         >
           <div
-            class="sc-dPyBCJ gMaYRe"
+            class="sc-kgUAyh dcCGZt"
           />
           <div
-            class="sc-bBXxYQ dUCxMf"
+            class="sc-hTtwUo gkmhVK"
           >
             <h3>
               Stewart Butterfield
@@ -128,7 +125,7 @@ exports[`Testimonial should match snapshot 1`] = `
       </li>
     </ul>
     <div
-      class="sc-hTtwUo dkGxTb"
+      class="sc-iNWwEs jtIHyX"
     >
       <span>
         <svg
@@ -148,7 +145,7 @@ exports[`Testimonial should match snapshot 1`] = `
         Star Rating
       </span>
       <div
-        class="sc-jgbSNz cgEsNN"
+        class="sc-jfmDQi itpXnY"
       >
         <img
           height="75"
@@ -160,7 +157,7 @@ exports[`Testimonial should match snapshot 1`] = `
         “If you're looking for someone who challenges your Front thinking and really gets to the heart of what's important to users, then Giovanna is for you. Plus, she brings a level of enthusiasm to the craft that is energizing for everyone who works with her.”
       </p>
       <div
-        class="sc-gSAPjG dTshrE"
+        class="sc-eKszNL DoVDB"
       />
     </div>
   </div>
