@@ -9,9 +9,23 @@ import * as S from './ServiceCard.styled'
 export type ServiceCardProps = {
   children: ReactNode
   title: string
+  delay?: number
 }
 
-export function ServiceCard({ children, title }: ServiceCardProps) {
+const cardVariant = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+  },
+}
+
+export function ServiceCard({
+  children,
+  title,
+  delay = 0.3,
+}: ServiceCardProps) {
   const { t } = useTranslation()
   const { isButtonTextVisible, showButtonText, hiddenButtonText } =
     useButtonAnimation()
@@ -23,6 +37,13 @@ export function ServiceCard({ children, title }: ServiceCardProps) {
       onMouseLeave={hiddenButtonText}
       onFocus={showButtonText}
       onBlur={hiddenButtonText}
+      initial='hidden'
+      animate='visible'
+      variants={cardVariant}
+      transition={{
+        duration: 0.5,
+        delay,
+      }}
     >
       {children}
 

@@ -1,7 +1,8 @@
+import { motion } from 'framer-motion'
 import styled from 'styled-components'
 import { theme } from '~/styles'
 
-export const Container = styled.button`
+export const Container = styled(motion.button)`
   position: relative;
   height: 35.1rem;
   width: 100%;
