@@ -34,7 +34,12 @@ export function LocaleSelect() {
 
   return (
     <S.Container>
-      <Button variant='neutral' size='sm' onClick={toggleSelectListVisibility}>
+      <Button
+        variant='neutral'
+        size='sm'
+        onClick={toggleSelectListVisibility}
+        aria-label='locale select'
+      >
         <S.CountryFlag
           width={70}
           height={30}
@@ -48,15 +53,14 @@ export function LocaleSelect() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
+            aria-label='select list'
           >
             {locales
               .filter((locale) => locale.name !== localeSelected.name)
               .map(({ name, icon, locale }) => (
                 <li key={locale}>
-                  <Link href='/' locale={locale} passHref>
-                    <a>
-                      <S.CountryFlag src={icon} alt={name} />
-                    </a>
+                  <Link href='/' locale={locale}>
+                    <S.CountryFlag src={icon} alt={name} />
                   </Link>
                 </li>
               ))}

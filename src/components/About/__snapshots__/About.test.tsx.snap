@@ -2,76 +2,7 @@
 
 exports[`Apresentation should match snapshot 1`] = `
 <section
-  class="sc-gsnTZi boAqRd"
+  class="sc-gsnTZi brbedO"
   id="about"
->
-  <div
-    class="sc-dkzDqf eLqaav"
-  >
-    <img
-      height="574"
-      src="/computer.png"
-      width="592"
-    />
-  </div>
-  <div
-    class="sc-hKMtZM kCXhzN"
-  >
-    <h1>
-      Developing quality digital products through codes.
-       ✨
-    </h1>
-    <p>
-      I'm a front end developer with a sparkle in the eyes who's always looking for the next level and who writes about technology to contribute to the community. Some of my goals are to have continuous growth, boost people through education and build good quality interfaces.
-    </p>
-    <div
-      class="sc-eCYdqJ cOQNVi"
-    >
-      <div
-        class="sc-jSMfEi JDyQl"
-      >
-        <h3>
-          1+
-        </h3>
-        <span>
-          Years of Experience
-        </span>
-      </div>
-      <div
-        class="sc-jSMfEi JDyQl"
-      >
-        <h3>
-          28+
-        </h3>
-        <span>
-          Completed Projects
-        </span>
-      </div>
-    </div>
-    <a
-      href="mailto:eugiovannasouza@gmail.com"
-    >
-      <button
-        class="sc-bczRLJ sc-gKXOVf fhxDpE cHiqVP"
-      >
-        SAY HI
-         
-        <svg
-          fill="none"
-          height="24"
-          stroke="currentColor"
-          stroke-width="0"
-          viewBox="0 0 24 24"
-          width="24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z"
-            fill="currentColor"
-          />
-        </svg>
-      </button>
-    </a>
-  </div>
-</section>
+/>
 `;

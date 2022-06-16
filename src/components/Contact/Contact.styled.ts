@@ -38,7 +38,7 @@ export const InfoContainer = styled.div`
 
   @media screen and (max-width: ${theme.breakpoints.mobile}) {
     margin: ${theme.space[2]} 0 0 0;
-    padding: 2rem 0 2rem 0;
+    padding: ${theme.space[5]};
   }
 `
 

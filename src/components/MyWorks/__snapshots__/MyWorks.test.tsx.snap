@@ -2,7 +2,7 @@
 
 exports[`MyWorks should match snapshot 1`] = `
 <section
-  class="sc-jgbSNz eAvRJs"
+  class="sc-jfmDQi fHKibx"
   id="works"
 >
   <h1
@@ -10,16 +10,13 @@ exports[`MyWorks should match snapshot 1`] = `
   >
     My Selected Work
   </h1>
-  <hr
-    class="sc-fEOsli fxMEFr"
-  />
   <ul
-    class="sc-gSAPjG jludoS"
+    class="sc-eKszNL lXdFD"
   >
     <li>
       <button
         aria-label="Landing Blizzard"
-        class="sc-kgUAyh jiMDYz"
+        class="sc-lbxAil eAxzkY"
       >
         <img
           height="332"
@@ -27,7 +24,7 @@ exports[`MyWorks should match snapshot 1`] = `
           width="424"
         />
         <div
-          class="sc-hTtwUo kgcqqK"
+          class="sc-iNWwEs gUfbiG"
         >
           <h3>
             Landing Blizzard
@@ -53,10 +50,8 @@ exports[`MyWorks should match snapshot 1`] = `
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                clip-rule="evenodd"
-                d="M18.73 7.75739L22.9798 11.9929L18.7443 16.2426L17.3277 14.8308L19.142 13.0103L6.85364 13.0525C6.44678 14.219 5.33954 15.0584 4.03368 15.0642C2.37684 15.0717 1.02767 13.7346 1.02023 12.0777C1.01279 10.4209 2.34989 9.07173 4.00673 9.06429C5.31328 9.05842 6.4285 9.88867 6.84531 11.0525L19.1607 11.0103L17.3182 9.17398L18.73 7.75739ZM5.02019 12.0598C5.01771 11.5075 4.56799 11.0618 4.01571 11.0643C3.46343 11.0667 3.01773 11.5165 3.02021 12.0687C3.02269 12.621 3.47242 13.0667 4.02469 13.0642C4.57697 13.0618 5.02267 12.612 5.02019 12.0598Z"
+                d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z"
                 fill="currentColor"
-                fill-rule="evenodd"
               />
             </svg>
           </div>
@@ -66,7 +61,7 @@ exports[`MyWorks should match snapshot 1`] = `
     <li>
       <button
         aria-label="Disney+ Web App"
-        class="sc-kgUAyh jiMDYz"
+        class="sc-lbxAil eAxzkY"
       >
         <img
           height="332"
@@ -74,7 +69,7 @@ exports[`MyWorks should match snapshot 1`] = `
           width="424"
         />
         <div
-          class="sc-hTtwUo kgcqqK"
+          class="sc-iNWwEs gUfbiG"
         >
           <h3>
             Disney+ Web App
@@ -100,10 +95,8 @@ exports[`MyWorks should match snapshot 1`] = `
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                clip-rule="evenodd"
-                d="M18.73 7.75739L22.9798 11.9929L18.7443 16.2426L17.3277 14.8308L19.142 13.0103L6.85364 13.0525C6.44678 14.219 5.33954 15.0584 4.03368 15.0642C2.37684 15.0717 1.02767 13.7346 1.02023 12.0777C1.01279 10.4209 2.34989 9.07173 4.00673 9.06429C5.31328 9.05842 6.4285 9.88867 6.84531 11.0525L19.1607 11.0103L17.3182 9.17398L18.73 7.75739ZM5.02019 12.0598C5.01771 11.5075 4.56799 11.0618 4.01571 11.0643C3.46343 11.0667 3.01773 11.5165 3.02021 12.0687C3.02269 12.621 3.47242 13.0667 4.02469 13.0642C4.57697 13.0618 5.02267 12.612 5.02019 12.0598Z"
+                d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z"
                 fill="currentColor"
-                fill-rule="evenodd"
               />
             </svg>
           </div>
@@ -113,7 +106,7 @@ exports[`MyWorks should match snapshot 1`] = `
     <li>
       <button
         aria-label="Tasks Management"
-        class="sc-kgUAyh jiMDYz"
+        class="sc-lbxAil eAxzkY"
       >
         <img
           height="332"
@@ -121,7 +114,7 @@ exports[`MyWorks should match snapshot 1`] = `
           width="424"
         />
         <div
-          class="sc-hTtwUo kgcqqK"
+          class="sc-iNWwEs gUfbiG"
         >
           <h3>
             Tasks Management
@@ -147,10 +140,8 @@ exports[`MyWorks should match snapshot 1`] = `
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                clip-rule="evenodd"
-                d="M18.73 7.75739L22.9798 11.9929L18.7443 16.2426L17.3277 14.8308L19.142 13.0103L6.85364 13.0525C6.44678 14.219 5.33954 15.0584 4.03368 15.0642C2.37684 15.0717 1.02767 13.7346 1.02023 12.0777C1.01279 10.4209 2.34989 9.07173 4.00673 9.06429C5.31328 9.05842 6.4285 9.88867 6.84531 11.0525L19.1607 11.0103L17.3182 9.17398L18.73 7.75739ZM5.02019 12.0598C5.01771 11.5075 4.56799 11.0618 4.01571 11.0643C3.46343 11.0667 3.01773 11.5165 3.02021 12.0687C3.02269 12.621 3.47242 13.0667 4.02469 13.0642C4.57697 13.0618 5.02267 12.612 5.02019 12.0598Z"
+                d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z"
                 fill="currentColor"
-                fill-rule="evenodd"
               />
             </svg>
           </div>
@@ -160,7 +151,7 @@ exports[`MyWorks should match snapshot 1`] = `
     <li>
       <button
         aria-label="HBO Max Web App"
-        class="sc-kgUAyh jiMDYz"
+        class="sc-lbxAil eAxzkY"
       >
         <img
           height="332"
@@ -168,7 +159,7 @@ exports[`MyWorks should match snapshot 1`] = `
           width="424"
         />
         <div
-          class="sc-hTtwUo kgcqqK"
+          class="sc-iNWwEs gUfbiG"
         >
           <h3>
             HBO Max Web App
@@ -194,10 +185,8 @@ exports[`MyWorks should match snapshot 1`] = `
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                clip-rule="evenodd"
-                d="M18.73 7.75739L22.9798 11.9929L18.7443 16.2426L17.3277 14.8308L19.142 13.0103L6.85364 13.0525C6.44678 14.219 5.33954 15.0584 4.03368 15.0642C2.37684 15.0717 1.02767 13.7346 1.02023 12.0777C1.01279 10.4209 2.34989 9.07173 4.00673 9.06429C5.31328 9.05842 6.4285 9.88867 6.84531 11.0525L19.1607 11.0103L17.3182 9.17398L18.73 7.75739ZM5.02019 12.0598C5.01771 11.5075 4.56799 11.0618 4.01571 11.0643C3.46343 11.0667 3.01773 11.5165 3.02021 12.0687C3.02269 12.621 3.47242 13.0667 4.02469 13.0642C4.57697 13.0618 5.02267 12.612 5.02019 12.0598Z"
+                d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z"
                 fill="currentColor"
-                fill-rule="evenodd"
               />
             </svg>
           </div>
@@ -207,7 +196,7 @@ exports[`MyWorks should match snapshot 1`] = `
     <li>
       <button
         aria-label="Github Explorer"
-        class="sc-kgUAyh jiMDYz"
+        class="sc-lbxAil eAxzkY"
       >
         <img
           height="332"
@@ -215,7 +204,7 @@ exports[`MyWorks should match snapshot 1`] = `
           width="424"
         />
         <div
-          class="sc-hTtwUo kgcqqK"
+          class="sc-iNWwEs gUfbiG"
         >
           <h3>
             Github Explorer
@@ -241,10 +230,8 @@ exports[`MyWorks should match snapshot 1`] = `
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                clip-rule="evenodd"
-                d="M18.73 7.75739L22.9798 11.9929L18.7443 16.2426L17.3277 14.8308L19.142 13.0103L6.85364 13.0525C6.44678 14.219 5.33954 15.0584 4.03368 15.0642C2.37684 15.0717 1.02767 13.7346 1.02023 12.0777C1.01279 10.4209 2.34989 9.07173 4.00673 9.06429C5.31328 9.05842 6.4285 9.88867 6.84531 11.0525L19.1607 11.0103L17.3182 9.17398L18.73 7.75739ZM5.02019 12.0598C5.01771 11.5075 4.56799 11.0618 4.01571 11.0643C3.46343 11.0667 3.01773 11.5165 3.02021 12.0687C3.02269 12.621 3.47242 13.0667 4.02469 13.0642C4.57697 13.0618 5.02267 12.612 5.02019 12.0598Z"
+                d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z"
                 fill="currentColor"
-                fill-rule="evenodd"
               />
             </svg>
           </div>
@@ -254,7 +241,7 @@ exports[`MyWorks should match snapshot 1`] = `
     <li>
       <button
         aria-label="Pokémon Lister"
-        class="sc-kgUAyh jiMDYz"
+        class="sc-lbxAil eAxzkY"
       >
         <img
           height="332"
@@ -262,7 +249,7 @@ exports[`MyWorks should match snapshot 1`] = `
           width="424"
         />
         <div
-          class="sc-hTtwUo kgcqqK"
+          class="sc-iNWwEs gUfbiG"
         >
           <h3>
             Pokémon Lister
@@ -288,10 +275,8 @@ exports[`MyWorks should match snapshot 1`] = `
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                clip-rule="evenodd"
-                d="M18.73 7.75739L22.9798 11.9929L18.7443 16.2426L17.3277 14.8308L19.142 13.0103L6.85364 13.0525C6.44678 14.219 5.33954 15.0584 4.03368 15.0642C2.37684 15.0717 1.02767 13.7346 1.02023 12.0777C1.01279 10.4209 2.34989 9.07173 4.00673 9.06429C5.31328 9.05842 6.4285 9.88867 6.84531 11.0525L19.1607 11.0103L17.3182 9.17398L18.73 7.75739ZM5.02019 12.0598C5.01771 11.5075 4.56799 11.0618 4.01571 11.0643C3.46343 11.0667 3.01773 11.5165 3.02021 12.0687C3.02269 12.621 3.47242 13.0667 4.02469 13.0642C4.57697 13.0618 5.02267 12.612 5.02019 12.0598Z"
+                d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z"
                 fill="currentColor"
-                fill-rule="evenodd"
               />
             </svg>
           </div>

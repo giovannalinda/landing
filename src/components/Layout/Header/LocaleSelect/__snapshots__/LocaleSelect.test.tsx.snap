@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocaleSelect should match snapshot 1`] = `
+<div
+  class="sc-lbxAil hfLLGD"
+>
+  <button
+    aria-label="locale select"
+    class="sc-gsnTZi kcqiXn"
+  >
+    <img
+      alt="English"
+      class="sc-iNWwEs fIcmmO"
+      height="30"
+      src="/countries/usa.svg"
+      width="70"
+    />
+  </button>
+</div>
+`;

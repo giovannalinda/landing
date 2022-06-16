@@ -2,23 +2,214 @@
 
 exports[`Apresentation should match snapshot 1`] = `
 <section
-  class="sc-BeQoi jQKbSd"
+  class="sc-gSAPjG eIqGHB"
 >
   <div
-    class="sc-kgUAyh hzaakW"
+    class="sc-lbxAil hOARIx"
   >
     <h1>
-      Hello, I’m Gio,
+      <span
+        style="opacity: 0;"
+      >
+        H
+      </span>
+      <span
+        style="opacity: 0;"
+      >
+        e
+      </span>
+      <span
+        style="opacity: 0;"
+      >
+        l
+      </span>
+      <span
+        style="opacity: 0;"
+      >
+        l
+      </span>
+      <span
+        style="opacity: 0;"
+      >
+        o
+      </span>
+      <span
+        style="opacity: 0;"
+      >
+        ,
+      </span>
+      <span
+        style="opacity: 0;"
+      >
+         
+      </span>
+      <span
+        style="opacity: 0;"
+      >
+        I
+      </span>
+      <span
+        style="opacity: 0;"
+      >
+        ’
+      </span>
+      <span
+        style="opacity: 0;"
+      >
+        m
+      </span>
+      <span
+        style="opacity: 0;"
+      >
+         
+      </span>
+      <span
+        style="opacity: 0;"
+      >
+        G
+      </span>
+      <span
+        style="opacity: 0;"
+      >
+        i
+      </span>
+      <span
+        style="opacity: 0;"
+      >
+        o
+      </span>
+      <span
+        style="opacity: 0;"
+      >
+        ,
+      </span>
       <br />
-      <span>
-        Front End Developer.
+      <span
+        class="purple"
+        style="opacity: 0;"
+      >
+        F
+      </span>
+      <span
+        class="purple"
+        style="opacity: 0;"
+      >
+        r
+      </span>
+      <span
+        class="purple"
+        style="opacity: 0;"
+      >
+        o
+      </span>
+      <span
+        class="purple"
+        style="opacity: 0;"
+      >
+        n
+      </span>
+      <span
+        class="purple"
+        style="opacity: 0;"
+      >
+        t
+      </span>
+      <span
+        class="purple"
+        style="opacity: 0;"
+      >
+         
+      </span>
+      <span
+        class="purple"
+        style="opacity: 0;"
+      >
+        E
+      </span>
+      <span
+        class="purple"
+        style="opacity: 0;"
+      >
+        n
+      </span>
+      <span
+        class="purple"
+        style="opacity: 0;"
+      >
+        d
+      </span>
+      <span
+        class="purple"
+        style="opacity: 0;"
+      >
+         
+      </span>
+      <span
+        class="purple"
+        style="opacity: 0;"
+      >
+        D
+      </span>
+      <span
+        class="purple"
+        style="opacity: 0;"
+      >
+        e
+      </span>
+      <span
+        class="purple"
+        style="opacity: 0;"
+      >
+        v
+      </span>
+      <span
+        class="purple"
+        style="opacity: 0;"
+      >
+        e
+      </span>
+      <span
+        class="purple"
+        style="opacity: 0;"
+      >
+        l
+      </span>
+      <span
+        class="purple"
+        style="opacity: 0;"
+      >
+        o
+      </span>
+      <span
+        class="purple"
+        style="opacity: 0;"
+      >
+        p
+      </span>
+      <span
+        class="purple"
+        style="opacity: 0;"
+      >
+        e
+      </span>
+      <span
+        class="purple"
+        style="opacity: 0;"
+      >
+        r
+      </span>
+      <span
+        class="purple"
+        style="opacity: 0;"
+      >
+        .
       </span>
     </h1>
     <p>
       A Front End Developer with a sparkle in her eye, who cares about every detail when building interfaces valuing the experience so that it positively impacts people's lives.
     </p>
     <div
-      class="sc-hTtwUo hOIYSf"
+      class="sc-iNWwEs bCFUoP"
     >
       <a
         href="mailto:eugiovannasouza@gmail.com"
@@ -41,13 +232,14 @@ exports[`Apresentation should match snapshot 1`] = `
     </div>
   </div>
   <div
-    class="sc-jgbSNz ldcZtp"
+    class="sc-jfmDQi fUhkhJ"
   >
     <small>
       Follow me on
     </small>
     <div
-      class="sc-gSAPjG lkbWJf"
+      class="sc-eKszNL jteIIe"
+      style="opacity: 0;"
     >
       <a
         class="sc-gsnTZi dTpCAn"

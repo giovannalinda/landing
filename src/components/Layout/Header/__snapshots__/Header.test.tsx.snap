@@ -2,10 +2,26 @@
 
 exports[`Header should match snapshot 1`] = `
 <header
-  class="sc-bczRLJ ksbZmO"
+  class="sc-jfmDQi bqbQUd"
 >
+  <div
+    class="sc-jgbSNz hAYYXJ"
+  >
+    <button
+      aria-label="locale select"
+      class="sc-gsnTZi kcqiXn"
+    >
+      <img
+        alt="English"
+        class="sc-gSAPjG lnLKPT"
+        height="30"
+        src="/countries/usa.svg"
+        width="70"
+      />
+    </button>
+  </div>
   <nav
-    class="sc-gsnTZi eDILmX"
+    class="sc-eKszNL cpcvSB"
   >
     <ul>
       <li>

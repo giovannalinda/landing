@@ -6,7 +6,7 @@ exports[`ContactList should match snapshot 1`] = `
 >
   <li>
     <div
-      class="sc-gsnTZi kmPOie"
+      class="sc-gsnTZi hRYDKG"
     >
       <svg
         fill="none"
@@ -37,7 +37,7 @@ exports[`ContactList should match snapshot 1`] = `
   </li>
   <li>
     <div
-      class="sc-gsnTZi kmPOie"
+      class="sc-gsnTZi hRYDKG"
     >
       <svg
         fill="none"
@@ -66,7 +66,7 @@ exports[`ContactList should match snapshot 1`] = `
   </li>
   <li>
     <div
-      class="sc-gsnTZi kmPOie"
+      class="sc-gsnTZi hRYDKG"
     >
       <svg
         fill="none"
